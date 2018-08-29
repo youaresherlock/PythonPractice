@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+# @Author: Clarence
+# @Date:   2018-08-29 22:29:33
+# @Last Modified by:   Clarence
+# @Last Modified time: 2018-08-29 22:29:33
+"""
+协议简介:
+	SMTP和POP3/IMAP协议的一些介绍
+
+1.SMTP协议
+ 	(1) SMTP协议(simple mail transfer protocol) 简单邮件传输协议
+ 	(2) 定义了邮件客户端与SMTP服务器之间、两台SMTP服务器之间的通信规则
+ 	(3) 分为标准SMTP协议和扩展SMTP协议。扩展SMTP协议在标准SMTP协议上增加了邮件
+ 	安全的认证
+ 	(4) 通信双方采用一问一答的命令/响应模式
+ 	(5) 底层基于TCP/IP的应用层协议、默认网络监听号25
+
+2.POP3协议
+	(1) 用户要从服务提供商提供的电子邮件中获取自己的电子邮件，需要POP3邮件服务器帮组完成
+而POP3(Post Office Protocol) 定义了邮件客户端与POP3服务器通信规则。
+	(2) POP3采用的网络监听端口号默认为110
+
+3.IMAP协议
+	(1) IMAP (internet Message Access Protocol) 协议是对POP3协议的一种扩展
+	(2) 相对于POP3协议而言，定义了更为强大的邮件接收功能
+		IMAP具有摘要浏览功能
+		IAP可以让用户有选择性地下载邮件附件
+		IMAP可以让用户在邮件服务器上创建自己的邮件夹，分类保存各个邮件
+	(3) IMAP协议在逐渐取代POP3协议，但POP3协议长期存在也不会在短期内淘汰，所以我们看到
+还是两种协议并存
+"""
