@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+# @Author: xiweibo
+# @Date:   2018-08-28 18:00:40
+# @Last Modified by:   xiweibo
+# @Last Modified time: 2018-08-29 14:24:27
+
+"""
+Python xml解析
+xml是什么?
+extensible markup language 扩展标记语言
+xml被设计用来传输和存储数据，是一套定义语义标记的规则，用来传输和存储数据
+xml解析的方法?
+DOM和SAX解析，这两种接口处理XML文件的方式不同，当然是用场合也不同
+python有三种方法解析XML,SAX,DOM以及ElementTree
+1.SAX(simple API for xml)
+python标准库包含SAX解析器，SAX用事件驱动模型，通过在解析XML的过程中触发一个个的事件并调用用户定义的
+回调函数来处理XML文件。
+2.DOM(Document Object Model)
+将XML数据在内存中解析成一个树，通过对树的操作来操作XML
+3.ElementTree(元素树)
+ElementTree像一个轻量级的DOM，具有方便友好的API。代码可用性好，速度快，消耗内存少
+
+SAX和DOM解析的优缺点:
+	DOM需要将XML数据映射到内存中的树，一是比较慢，二是比较耗内存，而SAX流式读取XML文件，比较快，
+占用内存少，但需要用户实现回调函数(handler)
+"""
