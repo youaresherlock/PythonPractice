@@ -2,7 +2,7 @@
 # @Author: Clarence
 # @Date:   2018-08-29 22:52:18
 # @Last Modified by:   Clarence
-# @Last Modified time: 2018-09-10 11:25:00
+# @Last Modified time: 2018-09-10 15:13:28
 
 """
 Python3 SMTP发送邮件
@@ -27,13 +27,13 @@ from email.mime.text import MIMEText
 from email.header import Header
 
 sender = 'smtp.mandrillapp.com'
-receivers = ['2263194561@qq.com'] #接受邮件，可以设置为你的QQ邮箱或者其他邮箱
+receivers = ['xxxxxxxxxxxxx@qq.com'] #接受邮件，可以设置为你的QQ邮箱或者其他邮箱
 
 # 三个参数: 第一个为文本内容，第二个plain设置文本格式，第三个utf-8设置编码
 """
 MIME类型(Multipurpose Internet Mail Extensions)是描述消息内容类型的因特网标准
 MIME消息能包含文本、图像、音频、视频以及其他应用程序专用的数据
-不同的应用程序支持不同的MIME类型
+不同的应用程序支持不同的MIME类型 plain是纯文本格式
 """
 message = MIMEText('Python邮件发送测试...', 'plain', 'utf-8')
 message['From'] = Header("菜鸟教程", "utf-8") #发送者
