@@ -1,2 +1,2 @@
 # PythonPractice
-the code I learn Python
+the practice code during My learning for Python  
