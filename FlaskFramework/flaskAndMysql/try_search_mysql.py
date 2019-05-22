@@ -84,15 +84,15 @@ def main():
     # rest = obj.get_one()
     # print(rest)
 
-    rest = obj.get_more()
-    for item in rest:
-        print(item)
+    # rest = obj.get_more()
+    # for item in rest:
+    #     print(item)
 
     # rest = obj.get_by_paging(2, 4)
     # for item in rest:
     #     print(item)
 
-    # obj.add_one()
+    obj.add_one()
 
 if __name__ == "__main__":
     main()
