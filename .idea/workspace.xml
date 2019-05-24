@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02c16178-0c8c-4669-ac05-5f9b6fd907a1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Clarence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/try_sqlalchemy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/demo/try_flask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/try_search_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/try_search_mysql.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,16 +18,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="try_sqlalchemy.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/try_sqlalchemy.py">
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="89" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="try_flask.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/demo/try_flask.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/db.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="flask_news.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/forms.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -45,12 +72,14 @@
         <option value="$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/readme.txt" />
         <option value="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/try_search_mysql.py" />
         <option value="$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/try_sqlalchemy.py" />
+        <option value="$PROJECT_DIR$/FlaskFramework/readme.txt" />
+        <option value="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/try_flask.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="189" />
-    <option name="y" value="232" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="637" />
+    <option name="y" value="67" />
     <option name="width" value="1944" />
     <option name="height" value="1068" />
   </component>
@@ -80,12 +109,6 @@
               <item name="FlaskFramework" type="462c0819:PsiDirectoryNode" />
               <item name="flaskAndMysql" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="FlaskFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlAlchemyDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -96,6 +119,12 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Clarence\Desktop\PythonPractice\FlaskFramework\flaskAndMysql\demo" />
+      <recent name="C:\Users\Clarence\Desktop\PythonPractice\FlaskFramework\flaskAndMysql" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -109,7 +138,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.try_sqlalchemy">
+  <component name="RunManager" selected="Python.try_flask">
+    <configuration name="try_flask" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FlaskFramework/flaskAndMysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Clarence\Desktop\PythonPractice\FlaskFramework\flaskAndMysql\demo\try_flask.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="try_search_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,9 +196,11 @@
     <list>
       <item itemvalue="Python.try_search_mysql" />
       <item itemvalue="Python.try_sqlalchemy" />
+      <item itemvalue="Python.try_flask" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.try_flask" />
         <item itemvalue="Python.try_sqlalchemy" />
         <item itemvalue="Python.try_search_mysql" />
       </list>
@@ -210,19 +259,34 @@
       <option name="project" value="LOCAL" />
       <updated>1558516163102</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;sqlalchemyDemo&quot;">
+      <created>1558682772891</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558682772891</updated>
+    </task>
+    <task id="LOCAL-00008" summary="&quot;change directory&quot;">
+      <created>1558703592599</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558703592599</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="126" y="155" width="1296" height="712" extended-state="0" />
+    <frame x="774" y="65" width="1296" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17706709" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17706709" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32874355" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.319398" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.319398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -233,7 +297,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -277,10 +340,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;test if the vcs works&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;test if the vcs works&quot;" />
+    <MESSAGE value="&quot;sqlalchemyDemo&quot;" />
+    <MESSAGE value="&quot;change directory&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;change directory&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/try_search_mysql.py">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/pythonAndMysql/try_search_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1729">
           <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
@@ -318,18 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/try_con_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/try_search_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/PythonInstallLocation/Lib/site-packages/twisted/names/common.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -339,13 +392,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/try_sqlalchemy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="89" selection-end-column="33" />
+        <state relative-caret-position="247">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/pythonAndMysql/try_search_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/pythonAndMysql/try_con_mysql.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/demo/try_flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/db.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/forms.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
