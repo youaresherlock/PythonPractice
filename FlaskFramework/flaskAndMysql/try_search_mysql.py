@@ -35,6 +35,7 @@ class MysqlSearch(object):
         cursor = self.conn.cursor()
         cursor.execute(sql, ('百家', ))
         rest = dict(zip([k[0] for k in cursor.description], cursor.fetchone()))
+        print(cursor.fetchone())
         cursor.close()
         self.close_conn()
         return rest
