@@ -2,10 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02c16178-0c8c-4669-ac05-5f9b6fd907a1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/page_not_found.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Clarence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Clarence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/ground-bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/ground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/hole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/load.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/mountain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/rocks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/sky-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/sweat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/texty-sign.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/worker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/working-sign.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/css_browser_selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/jquery-1.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/jquery-animate-css-rotate-scale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/jquery.spritely-0.6.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/plax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/preloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/page_not_found.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,51 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-390" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.1.10.2.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/jquery.1.10.2.min.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="page_not_found.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/page_not_found.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="02.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/img/news/02.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="home_base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/home_base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flask_news.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="flask_news.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+            <state relative-caret-position="360">
+              <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
               <folding>
                 <element signature="e#39#62#0" expanded="true" />
               </folding>
@@ -68,25 +47,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cat.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/cat.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>image</find>
+      <find>jpg</find>
+      <find>png</find>
+      <find>images</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -107,14 +76,16 @@
         <option value="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/test.html" />
         <option value="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/test.html" />
         <option value="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/detail.html" />
-        <option value="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py" />
+        <option value="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/print.js" />
         <option value="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/page_not_found.html" />
+        <option value="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/script.js" />
+        <option value="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="592" />
-    <option name="y" value="31" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
     <option name="width" value="1944" />
     <option name="height" value="1068" />
   </component>
@@ -149,13 +120,22 @@
               <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
               <item name="FlaskFramework" type="462c0819:PsiDirectoryNode" />
               <item name="flaskAndMysql" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="FlaskFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="flaskAndMysql" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
               <item name="FlaskFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlAlchemyDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="flaskAndMysql" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -166,10 +146,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Clarence\Desktop\PythonPractice\FlaskFramework\flaskAndMysql\templates" />
       <recent name="C:\Users\Clarence\Desktop\PythonPractice\FlaskFramework\flaskAndMysql" />
       <recent name="C:\Users\Clarence\Desktop\PythonPractice\FlaskFramework\flaskAndMysql\demo" />
     </key>
@@ -355,7 +336,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558705691363</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="&quot;flask pra&quot;">
+      <created>1558759113975</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1558759113975</updated>
+    </task>
+    <task id="LOCAL-00012" summary="&quot;flask pra&quot;">
+      <created>1558759149466</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1558759149466</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -365,10 +360,9 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17642467" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.33734939" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32874355" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31841654" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50774527" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32874355" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -379,6 +373,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34595525" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -425,18 +420,85 @@
     <MESSAGE value="&quot;sqlalchemyDemo&quot;" />
     <MESSAGE value="&quot;change directory&quot;" />
     <MESSAGE value="&quot;flaskAndMysql code&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;flaskAndMysql code&quot;" />
+    <MESSAGE value="&quot;flask pra&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;flask pra&quot;" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/page_not_found.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding>
+            <element signature="e#39#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/page_not_found.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="90" column="52" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding>
+            <element signature="e#39#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/try_sqlalchemy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FlaskFramework/pythonAndMysql/try_search_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1729">
           <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://D:/PythonInstallLocation/Lib/site-packages/sqlalchemy/engine/default.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -480,9 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/pythonAndMysql/try_con_mysql.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -497,18 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/img/news/01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/forms.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1083" />
@@ -519,16 +566,6 @@
         <state relative-caret-position="-909" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/db.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/try_sqlalchemy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/PythonInstallLocation/Lib/site-packages/flask_sqlalchemy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8661">
@@ -536,103 +573,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/test.html">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/test.html" />
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/test.html" />
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/home_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/update.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/add.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/clouds.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/ground.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/ground-bottom.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/hole.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/mountain.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/images/load.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/preloader.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/plax.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/css_browser_selector.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/jquery.spritely-0.6.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/jquery-1.8.3.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/jquery-animate-css-rotate-scale.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/jquery.1.10.2.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/img/news/02.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-          <folding>
-            <element signature="e#39#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/cat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="-38">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -643,6 +589,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/cat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -650,20 +603,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/home_base.html">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="931">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/index.html">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="90" column="52" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/try_sqlalchemy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/css_browser_selector.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/page_not_found.html">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/jquery.spritely-0.6.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        <state relative-caret-position="7638">
+          <caret line="540" column="39" selection-start-line="540" selection-start-column="34" selection-end-line="540" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/jquery-1.8.3.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/jquery-animate-css-rotate-scale.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/plax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5805" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/preloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/print.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/page_not_found.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="90" lean-forward="true" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+          <folding>
+            <element signature="e#39#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

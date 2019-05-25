@@ -31,7 +31,7 @@ class News(db.Model):
 @app.route("/")
 def index():
     ''' 新闻首页'''
-    return render_template("page_not_found.html")
+    return render_template("index.html")
 
 @app.route('/cat/<name>/')
 def cat(name):
@@ -43,10 +43,6 @@ def cat(name):
 def detail(pk):
     ''' 新闻详情 '''
     return render_template('detail.html', pk = pk)
-
-@app.errorhandler(404)
-def page_not_found(error):
-    return render_template('page_not_found.html')
 
 if __name__ == "__main__":
     app.run(debug = True)
