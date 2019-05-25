@@ -2,6 +2,7 @@
   <dictionary name="Clarence">
     <words>
       <w>dbname</w>
+      <w>preloader</w>
       <w>sqlalchemy</w>
       <w>tablename</w>
     </words>
