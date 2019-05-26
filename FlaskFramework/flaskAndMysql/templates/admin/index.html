@@ -28,12 +28,16 @@
 </table>
 <nav>
   <ul class="pagination">
+    <!--整体分为三部分
+    如果当前页有下一页，则>>产生链接，否则>>链接禁用
+    如果当前页是所有页中的一个，那么禁用当前页数字链接，否则加入当前页数字链接
+    如果当前页有下一页，则>>产生下一页链接，否则<<链接禁用-->
     {% if page_data.has_prev %}
-    <li><a href="{{ url_for('admin', page=page_data.prev_num) }}">&laquo;</a></li>
+    <li><a href="{{ url_for('admin', page=page_data.prev_num) }}">&raquo;</a></li>
     {% else %}
-    <li class="disabled"><a href="javscript:;">&raquo;</a></li>
+    <li class="disabled"><a href="javscript:;">&laquo;</a></li>
     {% endif %}
-    {% for page in page_data.iter_pages() %}
+    {% for page in page_data.iter_pages(left_current = 10, right_current=10) %}
     {% if page == page_data.page %}
     <li class="active"><a href="javscript:;">{{ page }}</a></li>
     {% else %}
