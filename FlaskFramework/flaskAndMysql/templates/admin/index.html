@@ -18,7 +18,7 @@
     <tr>
       <td>{{ new_obj.id }}</td>
       <td>{{ new_obj.title }}</td>
-      <td>{{ new_obj.news_type }}</td>
+      <td>{{ new_obj.type }}</td>
       <td>{{ new_obj.created_at }}</td>
       <td><a class="btn btn-info" href="{{ url_for('update', pk=new_obj.id) }}">修改</a>
       <a class="btn btn-danger" href="javscript:;" data-url="{{ url_for('delete', pk=new_obj.id) }}">删除</a></td>
@@ -54,9 +54,10 @@
 {% endblock %}
 {% block extrajs %}
 <script>
+   // jquery
   $(function(){
     $('.btn-danger').on('click', function(){
-      var btn = $(this);
+      var btn = $(this); //注意this作用域 btn.attr("data_url")为post的url
       if(confirm('确定删除该记录吗？')){
         $.post(btn.attr('data-url'), function(data){
           if (data === 'yes'){

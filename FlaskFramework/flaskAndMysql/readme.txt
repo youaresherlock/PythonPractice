@@ -11,3 +11,6 @@ Flask-SQLAlchemy: https://flask-sqlalchemy.palletsprojects.com/en/2.x/
 表单
 pip install Flask-WTF
 英文文档: https://flask-wtf.readthedocs.io/en/stable/
+
+
+新闻数据的异步删除(逻辑删除和物理删除)
