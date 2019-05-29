@@ -58,10 +58,11 @@ class MysqlSearch(object):
         sql = "SELECT * FROM `news` WHERE `news_type` = %s ORDER BY `created_at` DESC LIMIT %s, %s;"
         cursor = self.conn.cursor()
         cursor.execute(sql, ('百家', offset, page_size))
+        print(cursor.fetchall())
         rest = [dict(zip([k[0] for k in cursor.description], row)) for row in cursor.fetchall()]
         cursor.close()
         self.close_conn()
-        return rest
+        # return rest
 
     # 增加一条数据
     def add_one(self):
