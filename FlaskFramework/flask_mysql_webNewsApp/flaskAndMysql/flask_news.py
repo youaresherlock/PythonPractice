@@ -4,6 +4,10 @@ from datetime import datetime
 from flask import Flask, render_template, flash, redirect, url_for, abort, request
 from flask_sqlalchemy import SQLAlchemy
 
+"""
+pycharm默认该项目的根目录为source目录，所以import使用绝对路径而不是相对路径的话，就会从
+项目的根目录中查找.可以使用相对路径或者将要引入的模块作为sources
+"""
 from forms import NewsForm
 
 

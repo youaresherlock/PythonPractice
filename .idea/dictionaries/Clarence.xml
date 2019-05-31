@@ -2,7 +2,9 @@
   <dictionary name="Clarence">
     <words>
       <w>dbname</w>
+      <w>javscript</w>
       <w>mongo</w>
+      <w>mongoengine</w>
       <w>preloader</w>
       <w>sqlalchemy</w>
       <w>tablename</w>
