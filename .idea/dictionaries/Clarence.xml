@@ -2,9 +2,11 @@
   <dictionary name="Clarence">
     <words>
       <w>dbname</w>
+      <w>mongo</w>
       <w>preloader</w>
       <w>sqlalchemy</w>
       <w>tablename</w>
+      <w>yuwen</w>
     </words>
   </dictionary>
 </component>

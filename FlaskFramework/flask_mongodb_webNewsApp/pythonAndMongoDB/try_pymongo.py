@@ -5,6 +5,16 @@ from bson.objectid import ObjectId
 from pymongo import MongoClient
 
 
+"""
+文档数据类似如下:
+{
+    "_id" : ObjectId("5cee4ca722b9df7c751a1779"),
+    "title" : "新的标题",
+    "content" : "博客内容,....",
+    "created_at" : ISODate("2019-05-29T17:11:03.296Z"),
+    "x" : 10
+}
+"""
 class TestMongo(object):
 
     def __init__(self):

@@ -1,13 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02c16178-0c8c-4669-ac05-5f9b6fd907a1" name="Default" comment="&quot;flask pra&quot;">
-      <change afterPath="$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/MongoDB/mongo_students.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/MongoDB/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/try_pymongo.py" afterDir="false" />
+    <list default="true" id="02c16178-0c8c-4669-ac05-5f9b6fd907a1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/FlaskFramework/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/mongoAndMongoEngine/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/mongoAndMongoEngine/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/mongoAndMongoEngine/try_mongengine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/pythonAndMongoDB/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/pythonAndMysql/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/sqlAlchemyDemo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Clarence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Clarence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskFramework/pythonAndMysql/try_search_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/pythonAndMysql/try_search_mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/demo/try_flask.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/demo/try_flask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/flask_news.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/bootstrap/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/img/news/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/img/news/01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/img/news/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/img/news/02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/img/news/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/img/news/03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/img/news/04.png" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/img/news/04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/img/news/08.png" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/img/news/08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/img/news/new1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/img/news/new1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/jquery.1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/jquery.1.10.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/admin/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/admin/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/admin/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/cat.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/cat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/home_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/home_base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/MongoDB/mongo_students.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/pythonAndMongoDB/MongoDB/mongo_students.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/MongoDB/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/pythonAndMongoDB/MongoDB/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/pythonAndMongoDB/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/try_pymongo.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/pythonAndMongoDB/try_pymongo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/pythonAndMysql/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/pythonAndMysql/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/pythonAndMysql/.idea/flaskAndMysql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/pythonAndMysql/.idea/flaskAndMysql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/pythonAndMysql/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/pythonAndMysql/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/pythonAndMysql/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/pythonAndMysql/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/pythonAndMysql/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/pythonAndMysql/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/pythonAndMysql/try_con_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/pythonAndMysql/try_con_mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/pythonAndMysql/try_search_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/pythonAndMysql/try_search_mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/sqlAlchemyDemo/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/try_sqlalchemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/sqlAlchemyDemo/try_sqlalchemy.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,20 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/readme.txt">
+      <file leaf-file-name="try_pymongo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/pythonAndMongoDB/try_pymongo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="try_pymongo.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/try_pymongo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="75" column="4" lean-forward="true" selection-start-line="75" selection-start-column="6" selection-end-line="76" selection-end-column="31" />
+            <state relative-caret-position="209">
+              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
               <folding>
                 <element signature="e#39#68#0" expanded="true" />
               </folding>
@@ -39,7 +84,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="try_mongengine.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/mongoAndMongoEngine/try_mongengine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="87" column="30" lean-forward="true" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+              <folding>
+                <element signature="e#39#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -49,6 +113,7 @@
       <find>images</find>
       <find>url_for</find>
       <find>form</find>
+      <find>mul</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,14 +153,18 @@
         <option value="$PROJECT_DIR$/FlaskFramework/pythonAndMysql/try_search_mysql.py" />
         <option value="$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/readme.txt" />
         <option value="$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/try_pymongo.py" />
+        <option value="$PROJECT_DIR$/FlaskFramework/mongoAndMongoEngine/readme.txt" />
+        <option value="$PROJECT_DIR$/FlaskFramework/mongoAndMongoEngine/try_mongengine.py" />
+        <option value="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/pythonAndMysql/try_search_mysql.py" />
+        <option value="$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/mongoAndMongoEngine/try_mongengine.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="333" />
-    <option name="y" value="142" />
-    <option name="width" value="1520" />
-    <option name="height" value="881" />
+    <option name="x" value="582" />
+    <option name="y" value="81" />
+    <option name="width" value="1725" />
+    <option name="height" value="882" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -105,6 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,19 +191,12 @@
               <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
               <item name="FlaskFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="pythonAndMongoDB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="FlaskFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="pythonAndMysql" type="462c0819:PsiDirectoryNode" />
+              <item name="flask_mongodb_webNewsApp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,10 +205,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Clarence\Desktop\PythonPractice\FlaskFramework\flask_mongodb_webNewsApp" />
+      <recent name="C:\Users\Clarence\Desktop\PythonPractice\FlaskFramework\flask_mysql_webNewsApp" />
       <recent name="C:\Users\Clarence\Desktop\PythonPractice\FlaskFramework\pythonAndMongoDB\MongoDB" />
       <recent name="C:\Users\Clarence\Desktop\PythonPractice\FlaskFramework\flaskAndMysql\templates" />
       <recent name="C:\Users\Clarence\Desktop\PythonPractice\FlaskFramework\flaskAndMysql" />
-      <recent name="C:\Users\Clarence\Desktop\PythonPractice\FlaskFramework\flaskAndMysql\demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -160,8 +224,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.try_pymongo">
-    <configuration name="flask_news" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.try_mongengine ">
+    <configuration name="try_mongengine " type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,29 +233,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FlaskFramework/flaskAndMysql" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/mongoAndMongoEngine" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="try_flask" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonPractice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FlaskFramework/flaskAndMysql" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Clarence\Desktop\PythonPractice\FlaskFramework\flaskAndMysql\demo\try_flask.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/mongoAndMongoEngine/try_mongengine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,7 +279,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="try_sqlalchemy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="try_search_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,30 +287,28 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/pythonAndMysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/try_sqlalchemy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/pythonAndMysql/try_search_mysql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.try_sqlalchemy" />
-      <item itemvalue="Python.try_flask" />
-      <item itemvalue="Python.flask_news" />
       <item itemvalue="Python.try_pymongo" />
       <item itemvalue="Python.try_search_mysql " />
+      <item itemvalue="Python.try_search_mysql" />
+      <item itemvalue="Python.try_mongengine " />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.try_pymongo" />
+        <item itemvalue="Python.try_mongengine " />
+        <item itemvalue="Python.try_search_mysql" />
         <item itemvalue="Python.try_search_mysql " />
-        <item itemvalue="Python.flask_news" />
-        <item itemvalue="Python.try_flask" />
-        <item itemvalue="Python.try_sqlalchemy" />
+        <item itemvalue="Python.try_pymongo" />
       </list>
     </recent_temporary>
   </component>
@@ -384,19 +428,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559050906733</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="&quot;pymongo curd&quot;">
+      <created>1559141844023</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1559141844024</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="222" y="95" width="1013" height="587" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24121779" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32874355" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32874355" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35095137" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4251291" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32874355" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -455,7 +505,8 @@
     <MESSAGE value="&quot;change directory&quot;" />
     <MESSAGE value="&quot;flaskAndMysql code&quot;" />
     <MESSAGE value="&quot;flask pra&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;flask pra&quot;" />
+    <MESSAGE value="&quot;pymongo curd&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;pymongo curd&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -463,57 +514,28 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/pythonAndMongoDB/try_pymongo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        <state relative-caret-position="247">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding>
             <element signature="e#39#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/page_not_found.html" />
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/index.html">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/mongoAndMongoEngine/try_mongengine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="90" column="52" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        <state relative-caret-position="1558">
+          <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
           <folding>
-            <element signature="e#39#68#0" expanded="true" />
+            <element signature="e#39#70#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/try_sqlalchemy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/script.js" />
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/pythonAndMysql/try_search_mysql.py">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/pythonAndMysql/try_search_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1729">
           <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
@@ -548,7 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/bootstrap/js/bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/bootstrap/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1083" />
       </provider>
@@ -562,33 +584,33 @@
     <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/preloader.js" />
     <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/page_not_found/js/print.js" />
     <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/page_not_found.html" />
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/static/css/index.css">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-570" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/detail.html">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/cat.html">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/cat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/demo/try_flask.py">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/demo/try_flask.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/home_base.html">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/home_base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
@@ -637,131 +659,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/add.html">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/admin/add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/db.sql">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/db.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/forms.py">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="e#41#72#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/base.html">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/admin/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/update.html">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/admin/update.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/MongoDB/mongo_students.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/flask_news.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1862">
-          <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
-          <folding>
-            <element signature="e#39#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/templates/admin/index.html">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/templates/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/MongoDB/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/sqlAlchemyDemo/try_sqlalchemy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1976">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="e#40#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/flaskAndMysql/readme.txt">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/pythonAndMysql/try_search_mysql.py">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/pythonAndMongoDB/MongoDB/mongo_students.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="38">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/pythonAndMysql/try_con_mysql.py">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/pythonAndMongoDB/MongoDB/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57" />
+        <state relative-caret-position="-51">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="24" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/readme.txt">
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/pythonAndMongoDB/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
+        <state relative-caret-position="399">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskFramework/pythonAndMongoDB/try_pymongo.py">
+    <entry file="file://D:/PythonInstallLocation/Lib/site-packages/mongoengine/base/document.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="75" column="4" lean-forward="true" selection-start-line="75" selection-start-column="6" selection-end-line="76" selection-end-column="31" />
+        <state relative-caret-position="129">
+          <caret line="162" column="32" lean-forward="true" selection-start-line="162" selection-start-column="32" selection-end-line="162" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/sqlAlchemyDemo/try_sqlalchemy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="89" column="33" lean-forward="true" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/sqlAlchemyDemo/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/mongoAndMongoEngine/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/flaskAndMysql/flask_news.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mysql_webNewsApp/pythonAndMysql/try_search_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/pythonAndMongoDB/try_pymongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding>
             <element signature="e#39#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskFramework/flask_mongodb_webNewsApp/mongoAndMongoEngine/try_mongengine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="87" column="30" lean-forward="true" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+          <folding>
+            <element signature="e#39#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
