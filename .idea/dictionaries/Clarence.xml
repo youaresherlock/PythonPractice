@@ -2,11 +2,24 @@
   <dictionary name="Clarence">
     <words>
       <w>dbname</w>
+      <w>hgetall</w>
       <w>javscript</w>
+      <w>lpop</w>
+      <w>lpush</w>
+      <w>mget</w>
       <w>mongo</w>
       <w>mongoengine</w>
+      <w>mset</w>
       <w>preloader</w>
+      <w>rpush</w>
+      <w>sadd</w>
+      <w>sdiff</w>
+      <w>sinter</w>
+      <w>sismember</w>
+      <w>smembers</w>
       <w>sqlalchemy</w>
+      <w>srem</w>
+      <w>sunion</w>
       <w>tablename</w>
       <w>yuwen</w>
     </words>

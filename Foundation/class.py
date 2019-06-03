@@ -25,6 +25,10 @@ class student(people):
         # 加上下面报错 AttributeError: 'student' object has no attribute '_student__weight'
         # print(self.__weight)
 
+    # 私有方法
+    def __print(self):
+        print("hello world")
+
 s = student("clarece", "25", "140", "9")
 s.speak()
 # 当实例属性和类属性重名时，实例属性优先级高，将会屏蔽对类属性的访问
