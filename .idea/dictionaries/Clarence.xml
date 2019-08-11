@@ -11,6 +11,7 @@
       <w>mongoengine</w>
       <w>mset</w>
       <w>preloader</w>
+      <w>pygame</w>
       <w>rpush</w>
       <w>sadd</w>
       <w>sdiff</w>
@@ -21,6 +22,7 @@
       <w>srem</w>
       <w>sunion</w>
       <w>tablename</w>
+      <w>wronganswer</w>
       <w>yuwen</w>
     </words>
   </dictionary>
