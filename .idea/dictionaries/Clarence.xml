@@ -2,6 +2,7 @@
   <dictionary name="Clarence">
     <words>
       <w>dbname</w>
+      <w>flst</w>
       <w>hgetall</w>
       <w>javscript</w>
       <w>lpop</w>
