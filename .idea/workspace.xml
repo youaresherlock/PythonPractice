@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02c16178-0c8c-4669-ac05-5f9b6fd907a1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/chain_exception.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/comprehension.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/introspection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/keyword_only_args.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/monkey_patch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/python2_3_diff.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/type_hint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Clarence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Clarence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/coroutine_demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/coroutine_demo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/dis_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/exc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/python_args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/python_args_practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/python_var_args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/thread_safe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/with.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Foundation/diamondinheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Foundation/diamondinheritance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pygame/JonathanGame/chapter7/dragon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pygame/JonathanGame/chapter7/dragon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/duct_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_interview_code/code/3_python_basics/duct_type.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +23,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="introspection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/introspection.py">
+      <file leaf-file-name="dis_module.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/dis_module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/generator.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="1" selection-end-column="21" />
@@ -33,29 +41,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="duct_type.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/duct_type.py">
+      <file leaf-file-name="coroutine_demo1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/coroutine_demo1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-254">
-              <caret selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="95">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keyword_only_args.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/keyword_only_args.py">
+      <file leaf-file-name="coroutine_demo2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/coroutine_demo2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thread_safe.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/thread_safe.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chain_exception.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/chain_exception.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <caret selection-end-line="1" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -108,16 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FlaskFramework/flask_redis_webNewsApp/flaskAndRedis/readme.txt" />
-        <option value="$PROJECT_DIR$/Foundation/class.py" />
-        <option value="$PROJECT_DIR$/FlaskFramework/flask_redis_webNewsApp/flaskAndRedis/redis.txt" />
-        <option value="$PROJECT_DIR$/FlaskFramework/flask_redis_webNewsApp/flaskAndRedis/templates/index.html" />
-        <option value="$PROJECT_DIR$/FlaskFramework/flask_redis_webNewsApp/flaskAndRedis/init_news.py" />
-        <option value="$PROJECT_DIR$/FlaskFramework/flask_redis_webNewsApp/flaskAndRedis/redis_news.py" />
-        <option value="$PROJECT_DIR$/FlaskFramework/flask_redis_webNewsApp/flaskAndRedis/flask_news.py" />
-        <option value="$PROJECT_DIR$/Foundation/classOrstaticMethod.py" />
-        <option value="$PROJECT_DIR$/Foundation/decorator.py" />
-        <option value="$PROJECT_DIR$/Foundation/point.py" />
         <option value="D:/PythonInstallLocation/Lib/site-packages/matplotlib/path.py" />
         <option value="D:/PythonInstallLocation/Lib/site-packages/matplotlib/artist.py" />
         <option value="$PROJECT_DIR$/Pygame/JonathanGame/structured_program.py" />
@@ -157,14 +155,24 @@
         <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/type_hint.py" />
         <option value="$PROJECT_DIR$/Foundation/diamondinheritance.py" />
         <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/python2_3_diff.py" />
-        <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/keyword_only_args.py" />
         <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/chain_exception.py" />
+        <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/python_args.py" />
+        <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/python_args_practice.py" />
+        <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/python_var_args.py" />
+        <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/exc.py" />
+        <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/with.py" />
+        <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/thread_safe.py" />
+        <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/keyword_only_args.py" />
+        <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/dis_module.py" />
+        <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/generator.py" />
+        <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/coroutine_demo1.py" />
+        <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/coroutine_demo2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="196" />
+    <option name="y" value="499" />
     <option name="width" value="1944" />
     <option name="height" value="966" />
   </component>
@@ -176,7 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,10 +213,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Clarence/.PyCharmCE2018.1/system/python_stubs/-1494221932/builtins.py" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Clarence/Desktop/PythonPractice/python_interview_code/code/3_python_basics/thread_safe.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -246,8 +254,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.chain_exception">
-    <configuration name="chain_exception" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.coroutine_demo2">
+    <configuration name="coroutine_demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,13 +267,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/chain_exception.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/coroutine_demo1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="encoding" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="coroutine_demo2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,11 +281,47 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Foundation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_interview_code/code/3_python_basics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Foundation/encoding.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/coroutine_demo2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="dis_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_interview_code/code/3_python_basics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/dis_module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_interview_code/code/3_python_basics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,56 +345,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="python2_3_diff" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonPractice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_interview_code/code/3_python_basics" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/python2_3_diff.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="type_hint" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonPractice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_interview_code/code/3_python_basics" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/type_hint.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.type_hint" />
-      <item itemvalue="Python.python2_3_diff" />
-      <item itemvalue="Python.encoding" />
       <item itemvalue="Python.keyword_only_args" />
-      <item itemvalue="Python.chain_exception" />
+      <item itemvalue="Python.dis_module" />
+      <item itemvalue="Python.generator" />
+      <item itemvalue="Python.coroutine_demo1" />
+      <item itemvalue="Python.coroutine_demo2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.chain_exception" />
+        <item itemvalue="Python.coroutine_demo2" />
+        <item itemvalue="Python.coroutine_demo1" />
+        <item itemvalue="Python.generator" />
+        <item itemvalue="Python.dis_module" />
         <item itemvalue="Python.keyword_only_args" />
-        <item itemvalue="Python.encoding" />
-        <item itemvalue="Python.python2_3_diff" />
-        <item itemvalue="Python.type_hint" />
       </list>
     </recent_temporary>
   </component>
@@ -528,15 +536,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="131" y="333" width="1296" height="644" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17798595" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17784712" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32874355" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32874355" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32874355" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37005162" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28301886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32874355" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -628,34 +636,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pygame/JonathanGame/drawline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pygame/JonathanGame/drawarc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pygame/JonathanGame/piegame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pygame/JonathanGame/trivia.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="113" column="34" selection-start-line="113" selection-start-column="28" selection-end-line="113" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pygame/JonathanGame/rwbinary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -880,25 +860,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/type_hint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/python2_3_diff.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Foundation/data.pkl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Foundation/cycle.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Foundation/diamondinheritance.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -914,18 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Foundation/file.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Foundation/findTheNPrimer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Foundation/foo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Foundation/generator.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Foundation/encoding.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -933,17 +888,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/keyword_only_args.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/chain_exception.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -954,10 +902,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/exc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/duct_type.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-254">
+        <state relative-caret-position="76">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/with.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/python_args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/python_args_practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/python_var_args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
           <caret selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/type_hint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/keyword_only_args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/dis_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/thread_safe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/coroutine_demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/coroutine_demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
         </state>
       </provider>
     </entry>
