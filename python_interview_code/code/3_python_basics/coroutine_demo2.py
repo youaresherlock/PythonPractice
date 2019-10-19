@@ -9,16 +9,18 @@
 '''
 
 def consumer():
-    r = ''
+    r = 'hh'
     while True:
         n = yield r
+        print('v',n)
         if not n:
             return
         print('[CONSUMER] Consuming {}...'.format(n))
         r = '200 OK'
 
 def produce(c):
-    c.send(None)
+    x = c.send(None)
+    print(x)
     n = 0
     while n < 10:
         n = n + 1
