@@ -2,6 +2,7 @@
 # -*- coding:utf8 -*-
 
 # selectors module simple echo server
+# io多路复用
 import selectors
 import socket
 
