@@ -2,7 +2,7 @@
 # -*- coding:utf8 -*-
 
 import gevent.monkey
-gevent.monkey.patch_all() #
+gevent.monkey.patch_all() # 修改内置的一些库为非阻塞
 
 import gevent
 import requests
@@ -10,7 +10,7 @@ import requests
 def fetch(i):
     url = 'http://httpbin.org/get'
     resp = requests.get(url)
-    print(len(resp.text), i)
+    print(resp.json(), i)
 
 def asynchronous():
     threads = []
