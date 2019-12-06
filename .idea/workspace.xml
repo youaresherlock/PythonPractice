@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02c16178-0c8c-4669-ac05-5f9b6fd907a1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/python_interview_code/code/7_concurrency/gevent_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_interview_code/code/7_concurrency/gevent_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_client_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="duplex_pipe.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_interview_code/code/6_os/duplex_pipe.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="event_demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_interview_code/code/6_os/event_demo.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,11 +54,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gevent_demo.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gevent_demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_interview_code/code/7_concurrency/gevent_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            <state>
+              <caret selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aiohttp_demo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#57#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aiohttp_client_example.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_client_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <element signature="e#58#72#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,15 +92,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="1" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class_demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_interview_code/code/3_python_basics/class_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -169,8 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/python_interview_code/code/4_data_structures_and_algorithms/heap_sort.py" />
-        <option value="$PROJECT_DIR$/python_interview_code/code/4_data_structures_and_algorithms/binary_search.py" />
         <option value="$PROJECT_DIR$/python_interview_code/code/4_data_structures_and_algorithms/mergesort.py" />
         <option value="$PROJECT_DIR$/python_interview_code/code/4_data_structures_and_algorithms/collection_model.py" />
         <option value="$PROJECT_DIR$/python_interview_code/code/4_data_structures_and_algorithms/lrucache.py" />
@@ -220,14 +226,16 @@
         <option value="$PROJECT_DIR$/python_interview_code/code/7_concurrency/tornado_demo.py" />
         <option value="$PROJECT_DIR$/python_interview_code/code/3_python_basics/asyncio_demo3.py" />
         <option value="$PROJECT_DIR$/python_interview_code/code/7_concurrency/gevent_demo.py" />
+        <option value="$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_client_example.py" />
+        <option value="$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_demo.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-66" />
-    <option name="y" value="370" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
     <option name="width" value="1350" />
-    <option name="height" value="819" />
+    <option name="height" value="963" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -310,7 +318,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gevent_demo">
+  <component name="RunManager" selected="Python.aiohttp_demo">
+    <configuration name="aiohttp_client_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_interview_code/code/7_concurrency" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_client_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="aiohttp_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_interview_code/code/7_concurrency" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="asyncio_demo3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -329,24 +373,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="echo_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonPractice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_interview_code/code/7_concurrency" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_interview_code/code/7_concurrency/echo_server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="gevent_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -360,24 +386,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_interview_code/code/7_concurrency/gevent_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="tcp_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonPractice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_interview_code/code/7_concurrency" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_interview_code/code/7_concurrency/tcp_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -402,19 +410,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.tcp_client" />
-      <item itemvalue="Python.echo_server" />
       <item itemvalue="Python.tornado_demo" />
       <item itemvalue="Python.asyncio_demo3" />
       <item itemvalue="Python.gevent_demo" />
+      <item itemvalue="Python.aiohttp_client_example" />
+      <item itemvalue="Python.aiohttp_demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aiohttp_demo" />
+        <item itemvalue="Python.aiohttp_client_example" />
         <item itemvalue="Python.gevent_demo" />
         <item itemvalue="Python.asyncio_demo3" />
         <item itemvalue="Python.tornado_demo" />
-        <item itemvalue="Python.tcp_client" />
-        <item itemvalue="Python.echo_server" />
       </list>
     </recent_temporary>
   </component>
@@ -614,15 +622,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-44" y="247" width="900" height="546" extended-state="1" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.46448088" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.46388263" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32874355" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32874355" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32874355" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.65920824" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4475043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32874355" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -695,20 +703,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python_interview_code/code/4_data_structures_and_algorithms/lrucache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_interview_code/code/4_data_structures_and_algorithms/linked_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_interview_code/code/4_data_structures_and_algorithms/collection_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1051,8 +1045,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_interview_code/code/7_concurrency/gevent_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        <state>
+          <caret selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_client_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="e#58#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#57#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
