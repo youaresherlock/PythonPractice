@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02c16178-0c8c-4669-ac05-5f9b6fd907a1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_client_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Foundation/binary_search_tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="event_demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_interview_code/code/6_os/event_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Pool_demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_interview_code/code/6_os/Pool_demo.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,7 +35,7 @@
       <file leaf-file-name="tornado_demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_interview_code/code/7_concurrency/tornado_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="323">
               <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
               <folding>
                 <element signature="e#40#61#0" expanded="true" />
@@ -63,13 +53,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aiohttp_demo.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aiohttp_demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="21" />
               <folding>
                 <element signature="e#57#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="binary_search_tree.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Foundation/binary_search_tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2260">
+              <caret line="177" column="40" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
+              <folding>
+                <element signature="n#!!doc" />
+                <element signature="e#40#48#1" />
+                <element signature="e#208#364#0" />
+                <element signature="e#208#224#2" />
+                <element signature="e#269#364#0" />
+                <element signature="e#383#399#2" />
+                <element signature="e#435#451#0" />
+                <element signature="e#497#558#1" />
+                <element signature="e#523#615#0" />
+                <element signature="e#695#789#0" />
+                <element signature="e#870#939#0" />
+                <element signature="e#1070#1133#2" />
+                <element signature="e#1432#1511#2" />
               </folding>
             </state>
           </provider>
@@ -78,11 +92,8 @@
       <file leaf-file-name="aiohttp_client_example.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_client_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding>
-                <element signature="e#58#72#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -177,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/python_interview_code/code/4_data_structures_and_algorithms/mergesort.py" />
         <option value="$PROJECT_DIR$/python_interview_code/code/4_data_structures_and_algorithms/collection_model.py" />
         <option value="$PROJECT_DIR$/python_interview_code/code/4_data_structures_and_algorithms/lrucache.py" />
         <option value="$PROJECT_DIR$/python_interview_code/code/4_data_structures_and_algorithms/sort_algo.py" />
@@ -228,10 +238,11 @@
         <option value="$PROJECT_DIR$/python_interview_code/code/7_concurrency/gevent_demo.py" />
         <option value="$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_client_example.py" />
         <option value="$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_demo.py" />
+        <option value="$PROJECT_DIR$/Foundation/binary_search_tree.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="1350" />
@@ -251,6 +262,11 @@
             <path>
               <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="Foundation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
@@ -623,18 +639,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.46388263" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.46370023" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32874355" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32874355" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4475043" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32874355" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4475043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32874355" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39931154" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -703,13 +718,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python_interview_code/code/4_data_structures_and_algorithms/collection_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_interview_code/code/4_data_structures_and_algorithms/palindrome-number.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -1035,7 +1043,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_interview_code/code/7_concurrency/tornado_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="323">
           <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
           <folding>
             <element signature="e#40#61#0" expanded="true" />
@@ -1052,20 +1060,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_client_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="e#58#72#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python_interview_code/code/7_concurrency/aiohttp_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="21" />
           <folding>
             <element signature="e#57#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Foundation/binary_search_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2260">
+          <caret line="177" column="40" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#40#48#1" />
+            <element signature="e#208#364#0" />
+            <element signature="e#208#224#2" />
+            <element signature="e#269#364#0" />
+            <element signature="e#383#399#2" />
+            <element signature="e#435#451#0" />
+            <element signature="e#497#558#1" />
+            <element signature="e#523#615#0" />
+            <element signature="e#695#789#0" />
+            <element signature="e#870#939#0" />
+            <element signature="e#1070#1133#2" />
+            <element signature="e#1432#1511#2" />
           </folding>
         </state>
       </provider>
