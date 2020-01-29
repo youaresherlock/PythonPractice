@@ -20,11 +20,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="type_object_class.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="type_object_class.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter01/type_object_class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state>
+              <caret column="10" lean-forward="true" selection-end-line="1" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="company.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter02/company.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -46,14 +55,15 @@
       <list>
         <option value="$PROJECT_DIR$/chapter01/all_is_object.py" />
         <option value="$PROJECT_DIR$/chapter01/type_object_class.py" />
+        <option value="$PROJECT_DIR$/chapter02/company.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-801" />
-    <option name="y" value="100" />
-    <option name="width" value="1908" />
-    <option name="height" value="666" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -71,6 +81,11 @@
               <item name="python97" type="b2602c69:ProjectViewProjectNode" />
               <item name="python97" type="462c0819:PsiDirectoryNode" />
               <item name="chapter01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python97" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python97" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -95,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.type_object_class">
+  <component name="RunManager" selected="Python.company">
     <configuration name="all_is_object" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,6 +124,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter01/all_is_object.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="company" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python97" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/company.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,9 +168,11 @@
     <list>
       <item itemvalue="Python.all_is_object" />
       <item itemvalue="Python.type_object_class" />
+      <item itemvalue="Python.company" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.company" />
         <item itemvalue="Python.type_object_class" />
         <item itemvalue="Python.all_is_object" />
       </list>
@@ -157,10 +192,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="84" y="329" width="1272" height="535" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25370803" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2583466" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
@@ -185,6 +220,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chapter01/all_is_object.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter01/type_object_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter01/all_is_object.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
@@ -199,8 +248,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter01/type_object_class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state>
+          <caret column="10" lean-forward="true" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/company.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
