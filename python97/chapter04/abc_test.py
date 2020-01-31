@@ -22,8 +22,29 @@ print(isinstance(com, Sized)) # True Sized类型
 # 实现了一个web框架，集成cache(redis, cache, memorycache)
 # 需要设计一个抽象积基类， 指定子类必须实现某些方法
 
+#  如何去模拟一个抽象基类
+import abc
+class CacheBase(metaclass=abc.ABCMeta):
+    @abc.abstractmethod
+    def get(self, key):
+        pass
+    @abc.abstractmethod
+    def set(self, key, value):
+        pass
 
 
+
+# class CacheBase():
+#     def get(self, key):
+#         raise NotImplementedError
+#     def set(self, key, value):
+#         raise NotImplementedError
+#
+class RedisCache(CacheBase):
+    pass
+
+redis_cache = RedisCache()
+# redis_cache.set("Key", "value")
 
 
 
