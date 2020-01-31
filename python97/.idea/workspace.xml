@@ -22,7 +22,11 @@
       </file>
       <file leaf-file-name="instance_type.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter04/instance_type.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="type_object_class.py" pinned="false" current-in-tab="false">
@@ -96,11 +100,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-293" />
-    <option name="y" value="319" />
-    <option name="width" value="1946" />
-    <option name="height" value="1106" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1209" />
+    <option name="y" value="204" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -142,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.abc_test">
+  <component name="RunManager" selected="Python.instance_type">
     <configuration name="abc_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,7 +219,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="type_object_class" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="instance_type" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,30 +227,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter01/type_object_class.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter04/instance_type.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.type_object_class" />
       <item itemvalue="Python.company" />
       <item itemvalue="Python.abs" />
       <item itemvalue="Python.duck_type" />
       <item itemvalue="Python.abc_test" />
+      <item itemvalue="Python.instance_type" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.instance_type" />
         <item itemvalue="Python.abc_test" />
         <item itemvalue="Python.duck_type" />
         <item itemvalue="Python.abs" />
         <item itemvalue="Python.company" />
-        <item itemvalue="Python.type_object_class" />
       </list>
     </recent_temporary>
   </component>
@@ -264,13 +268,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="806" y="136" width="1296" height="696" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2568306" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25663027" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47594503" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47512865" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -483,7 +487,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter04/instance_type.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
