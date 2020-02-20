@@ -74,11 +74,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getattr.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getattr.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter08/getattr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="200">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attr_desc.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter08/attr_desc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1562">
+              <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+              <folding>
+                <element signature="e#39#74#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +98,7 @@
       <file leaf-file-name="property_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter08/property_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
+            <state relative-caret-position="440">
               <caret line="20" selection-start-line="20" selection-end-line="28" />
             </state>
           </provider>
@@ -148,20 +160,37 @@
         <option value="$PROJECT_DIR$/chapter07/an_error.py" />
         <option value="$PROJECT_DIR$/chapter08/property_test.py" />
         <option value="$PROJECT_DIR$/chapter08/getattr.py" />
+        <option value="$PROJECT_DIR$/chapter08/attr_desc.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
-    <option name="width" value="1944" />
-    <option name="height" value="561" />
+    <option name="width" value="980" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="python97" type="cbb8eebc:String" user="python97" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="python97" type="cbb8eebc:String" user="python97" />
+              <item name="chapter05" type="cbb8eebc:String" user="chapter05" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,22 +211,6 @@
             <path>
               <item name="python97" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="python97" type="cbb8eebc:String" user="python97" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="python97" type="cbb8eebc:String" user="python97" />
-              <item name="chapter05" type="cbb8eebc:String" user="chapter05" />
             </path>
           </expand>
           <select />
@@ -228,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.getattr">
+  <component name="RunManager" selected="Python.attr_desc">
     <configuration name="an_error" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -247,7 +260,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="delete" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="attr_desc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,11 +268,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter08" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter07/delete.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter08/attr_desc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,18 +334,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.dict_subclass" />
-      <item itemvalue="Python.delete" />
       <item itemvalue="Python.an_error" />
       <item itemvalue="Python.property_test" />
       <item itemvalue="Python.getattr" />
+      <item itemvalue="Python.attr_desc" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.attr_desc" />
         <item itemvalue="Python.getattr" />
         <item itemvalue="Python.property_test" />
         <item itemvalue="Python.dict_subclass" />
         <item itemvalue="Python.an_error" />
-        <item itemvalue="Python.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -350,45 +363,45 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="433" width="1296" height="374" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47560975" visible="true" weight="0.21918876" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47391304" visible="true" weight="0.21857923" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" x="0" y="243" width="1281" height="195" id="Run" order="2" weight="0.30801687" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" x="0" y="243" width="1281" height="195" id="Run" order="2" visible="true" weight="0.30801687" />
-      <window_info id="Structure" order="1" sideWeight="0.5243902" side_tool="true" visible="true" weight="0.21918876" />
+      <window_info id="Structure" order="1" sideWeight="0.526087" side_tool="true" visible="true" weight="0.21857923" />
       <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.17562725" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41577062" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49103943" visible="true" weight="0.21935987" />
       <window_info id="Structure" order="1" sideWeight="0.50896055" side_tool="true" visible="true" weight="0.21935987" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" x="0" y="243" width="1281" height="195" id="Run" order="2" weight="0.30708662" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41752577" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -403,17 +416,10 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter02/company.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter01/all_is_object.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -752,15 +758,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter08/property_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
+        <state relative-caret-position="440">
           <caret line="20" selection-start-line="20" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter08/getattr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="200">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter08/attr_desc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+          <folding>
+            <element signature="e#39#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
