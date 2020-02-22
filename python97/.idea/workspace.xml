@@ -11,86 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dict_subclass.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter06/dict_subclass.py">
+      <file leaf-file-name="metaclass_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter08/metaclass_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="1" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="set_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter06/set_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dict_performance.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter06/dict_performance.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
-              <caret line="47" column="30" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="what_is_var.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter07/what_is_var.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter07/delete.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getattr.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter08/getattr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="attr_desc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter08/attr_desc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="21" />
-              <folding>
-                <element signature="e#39#74#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_init.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter08/new_init.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="property_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter08/property_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" selection-start-line="20" selection-end-line="28" />
+              <caret line="48" column="67" lean-forward="true" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -153,14 +78,15 @@
         <option value="$PROJECT_DIR$/chapter08/getattr.py" />
         <option value="$PROJECT_DIR$/chapter08/attr_desc.py" />
         <option value="$PROJECT_DIR$/chapter08/new_init.py" />
+        <option value="$PROJECT_DIR$/chapter08/metaclass_test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1751" />
-    <option name="height" value="944" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="193" />
+    <option name="y" value="622" />
+    <option name="width" value="1946" />
+    <option name="height" value="566" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -233,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.new_init">
+  <component name="RunManager" selected="Python.metaclass_test">
     <configuration name="attr_desc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -252,24 +178,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="dict_subclass" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python97" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter06" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter06/dict_subclass.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="getattr" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,6 +191,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter08/getattr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="metaclass_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python97" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter08" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter08/metaclass_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,19 +251,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.dict_subclass" />
       <item itemvalue="Python.property_test" />
       <item itemvalue="Python.getattr" />
       <item itemvalue="Python.attr_desc" />
       <item itemvalue="Python.new_init" />
+      <item itemvalue="Python.metaclass_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.metaclass_test" />
         <item itemvalue="Python.new_init" />
         <item itemvalue="Python.attr_desc" />
         <item itemvalue="Python.getattr" />
         <item itemvalue="Python.property_test" />
-        <item itemvalue="Python.dict_subclass" />
       </list>
     </recent_temporary>
   </component>
@@ -355,45 +281,45 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="129" y="415" width="1297" height="377" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47263682" visible="true" weight="0.21857923" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46666667" visible="true" weight="0.24240062" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" x="0" y="243" width="1281" height="195" id="Run" order="2" visible="true" weight="0.2795699" />
+      <window_info anchor="bottom" x="0" y="243" width="1281" height="195" id="Run" order="2" weight="0.31707317" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info id="Structure" order="1" sideWeight="0.5273632" side_tool="true" visible="true" weight="0.21857923" />
+      <window_info id="Structure" order="1" sideWeight="0.53333336" side_tool="true" visible="true" weight="0.24240062" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38821137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38709676" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49103943" visible="true" weight="0.21935987" />
       <window_info id="Structure" order="1" sideWeight="0.50896055" side_tool="true" visible="true" weight="0.21935987" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" x="0" y="243" width="1281" height="195" id="Run" order="2" weight="0.30708662" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41752577" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -408,17 +334,10 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="22" />
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter01/type_object_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter01/all_is_object.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -752,9 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="1" selection-end-column="21" />
-          <folding>
-            <element signature="e#39#74#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,8 +683,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter08/new_init.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter08/metaclass_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="48" column="67" lean-forward="true" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
         </state>
       </provider>
     </entry>
