@@ -14,17 +14,44 @@
       <file leaf-file-name="metaclass_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter08/metaclass_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
+            <state>
               <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyOrm.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyOrm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter08/MyOrm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iterable.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter09/iterable.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="company.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter02/company.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iterable_iterator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CollectionsOverview/chapter08/iterable_iterator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -101,14 +128,16 @@
         <option value="$PROJECT_DIR$/chapter08/new_init.py" />
         <option value="$PROJECT_DIR$/chapter08/metaclass_test.py" />
         <option value="$PROJECT_DIR$/chapter08/MyOrm.py" />
+        <option value="$PROJECT_DIR$/chapter09/iterable.py" />
+        <option value="$PROJECT_DIR$/CollectionsOverview/chapter08/iterable_iterator.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="40" />
-    <option name="y" value="265" />
-    <option name="width" value="1944" />
-    <option name="height" value="992" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -125,12 +154,28 @@
             <path>
               <item name="python97" type="b2602c69:ProjectViewProjectNode" />
               <item name="python97" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python97" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python97" type="462c0819:PsiDirectoryNode" />
               <item name="chapter08" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python97" type="b2602c69:ProjectViewProjectNode" />
               <item name="python97" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python97" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python97" type="462c0819:PsiDirectoryNode" />
               <item name="CollectionsOverview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python97" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python97" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectionsOverview" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter08" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python97" type="b2602c69:ProjectViewProjectNode" />
@@ -181,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MyOrm">
+  <component name="RunManager" selected="Python.iterable_iterator">
     <configuration name="MyOrm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,7 +245,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="attr_desc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="iterable" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,17 +253,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter09" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter08/attr_desc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter09/iterable.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="getattr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="iterable_iterator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,11 +271,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CollectionsOverview/chapter08" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter08/getattr.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CollectionsOverview/chapter08/iterable_iterator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,19 +318,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.getattr" />
-      <item itemvalue="Python.attr_desc" />
       <item itemvalue="Python.new_init" />
       <item itemvalue="Python.metaclass_test" />
       <item itemvalue="Python.MyOrm" />
+      <item itemvalue="Python.iterable" />
+      <item itemvalue="Python.iterable_iterator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.iterable_iterator" />
+        <item itemvalue="Python.iterable" />
         <item itemvalue="Python.MyOrm" />
         <item itemvalue="Python.metaclass_test" />
         <item itemvalue="Python.new_init" />
-        <item itemvalue="Python.attr_desc" />
-        <item itemvalue="Python.getattr" />
       </list>
     </recent_temporary>
   </component>
@@ -303,16 +348,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="177" width="1296" height="661" extended-state="0" />
+    <frame x="163" y="413" width="1296" height="661" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46183205" visible="true" weight="0.2425897" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46218488" visible="true" weight="0.2425897" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" x="0" y="243" width="1281" height="195" id="Run" order="2" weight="0.29928315" />
+      <window_info active="true" anchor="bottom" x="0" y="243" width="1281" height="195" id="Run" order="2" visible="true" weight="0.31870228" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info id="Structure" order="1" sideWeight="0.53816795" side_tool="true" visible="true" weight="0.2425897" />
+      <window_info id="Structure" order="1" sideWeight="0.53781515" side_tool="true" visible="true" weight="0.2425897" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38709676" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -360,27 +405,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter02/abs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/duck_type.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/company.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter01/all_is_object.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -591,13 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/AnacondaInstallLocation/Lib/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="1846" column="13" selection-start-line="1846" selection-start-column="13" selection-end-line="1846" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter06/dict_abc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -691,7 +708,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter08/metaclass_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
+        <state>
           <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
@@ -715,8 +732,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter08/MyOrm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/AnacondaInstallLocation/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="1736" column="10" selection-start-line="1736" selection-start-column="10" selection-end-line="1736" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/iterable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/company.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollectionsOverview/chapter08/iterable_iterator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
