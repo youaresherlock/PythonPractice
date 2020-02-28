@@ -32,8 +32,17 @@
       <file leaf-file-name="iterable.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter09/iterable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read_file.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter09/read_file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -56,11 +65,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gen_func.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gen_func.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter09/gen_func.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="how_gen_work.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter09/how_gen_work.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="946">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -140,12 +158,14 @@
         <option value="$PROJECT_DIR$/chapter09/iterable.py" />
         <option value="$PROJECT_DIR$/CollectionsOverview/chapter08/iterable_iterator.py" />
         <option value="$PROJECT_DIR$/chapter09/gen_func.py" />
+        <option value="$PROJECT_DIR$/chapter09/how_gen_work.py" />
+        <option value="$PROJECT_DIR$/chapter09/read_file.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
     <option name="width" value="1944" />
     <option name="height" value="1044" />
   </component>
@@ -154,6 +174,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="python97" type="cbb8eebc:String" user="python97" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="python97" type="cbb8eebc:String" user="python97" />
+              <item name="chapter05" type="cbb8eebc:String" user="chapter05" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,22 +205,6 @@
             <path>
               <item name="python97" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="python97" type="cbb8eebc:String" user="python97" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="python97" type="cbb8eebc:String" user="python97" />
-              <item name="chapter05" type="cbb8eebc:String" user="chapter05" />
             </path>
           </expand>
           <select />
@@ -215,25 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gen_func">
-    <configuration name="MyOrm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python97" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter08" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter08/MyOrm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.read_file">
     <configuration name="gen_func" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -247,6 +249,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter09/gen_func.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="how_gen_work" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python97" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter09" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter09/how_gen_work.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,7 +308,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="metaclass_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="read_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,30 +316,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter09" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter08/metaclass_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter09/read_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.metaclass_test" />
-      <item itemvalue="Python.MyOrm" />
       <item itemvalue="Python.iterable" />
       <item itemvalue="Python.iterable_iterator" />
       <item itemvalue="Python.gen_func" />
+      <item itemvalue="Python.how_gen_work" />
+      <item itemvalue="Python.read_file" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.read_file" />
+        <item itemvalue="Python.how_gen_work" />
         <item itemvalue="Python.gen_func" />
         <item itemvalue="Python.iterable_iterator" />
         <item itemvalue="Python.iterable" />
-        <item itemvalue="Python.MyOrm" />
-        <item itemvalue="Python.metaclass_test" />
       </list>
     </recent_temporary>
   </component>
@@ -340,42 +360,42 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46057346" visible="true" weight="0.24277908" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45524296" visible="true" weight="0.24277908" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" x="0" y="243" width="1281" height="195" id="Run" order="2" weight="0.29928315" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info id="Structure" order="1" sideWeight="0.5394265" side_tool="true" visible="true" weight="0.24277908" />
+      <window_info active="true" anchor="bottom" x="0" y="243" width="1281" height="195" id="Run" order="2" visible="true" weight="0.29928315" />
+      <window_info id="Structure" order="1" sideWeight="0.544757" side_tool="true" visible="true" weight="0.24277908" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3864043" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3864043" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49103943" visible="true" weight="0.21935987" />
       <window_info id="Structure" order="1" sideWeight="0.50896055" side_tool="true" visible="true" weight="0.21935987" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" x="0" y="243" width="1281" height="195" id="Run" order="2" weight="0.30708662" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41752577" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -389,30 +409,11 @@
           <line>9</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/chapter09/gen_func.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="28" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter04/instance_type.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/class_var.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="17" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter04/attr_mro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -731,13 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter09/iterable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/company.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -754,8 +748,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter09/gen_func.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/how_gen_work.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/iterable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/read_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
         </state>
       </provider>
     </entry>
