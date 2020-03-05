@@ -11,32 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="socket_client.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter10/socket_client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="python_gil.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter11/python_gil.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="python_thread.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter11/python_thread.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="7" column="25" selection-end-line="103" />
-              <folding>
-                <element signature="e#82#93#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +56,20 @@
       <file leaf-file-name="thread_condition.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter11/thread_condition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="22">
+              <caret line="1" column="13" lean-forward="true" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="progress_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter11/progress_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+              <folding>
+                <element signature="e#107#118#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,23 +83,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="concurrent_futures.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="concurrent_futures.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter11/concurrent_futures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="66">
+              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding>
                 <element signature="e#138#149#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="variables.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter11/variables.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -128,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter04/with_tse.py" />
         <option value="$PROJECT_DIR$/chapter04/super_test.py" />
         <option value="$PROJECT_DIR$/chapter04/with_test.py" />
         <option value="$PROJECT_DIR$/chapter04/contextlib_with.py" />
@@ -179,12 +160,13 @@
         <option value="$PROJECT_DIR$/chapter11/thread_condition.py" />
         <option value="$PROJECT_DIR$/chapter11/thread_semaphore.py" />
         <option value="$PROJECT_DIR$/chapter11/concurrent_futures.py" />
+        <option value="$PROJECT_DIR$/chapter11/progress_test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="585" />
-    <option name="y" value="406" />
+    <option name="x" value="550" />
+    <option name="y" value="115" />
     <option name="width" value="1938" />
     <option name="height" value="726" />
   </component>
@@ -254,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.concurrent_futures">
+  <component name="RunManager" selected="Python.progress_test">
     <configuration name="concurrent_futures" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,7 +255,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="python_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="progress_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,7 +267,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter11/python_thread.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter11/progress_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,19 +328,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.python_thread" />
       <item itemvalue="Python.thread_sync" />
       <item itemvalue="Python.thread_condition" />
       <item itemvalue="Python.thread_semaphore" />
       <item itemvalue="Python.concurrent_futures" />
+      <item itemvalue="Python.progress_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.progress_test" />
         <item itemvalue="Python.concurrent_futures" />
         <item itemvalue="Python.thread_semaphore" />
         <item itemvalue="Python.thread_condition" />
         <item itemvalue="Python.thread_sync" />
-        <item itemvalue="Python.python_thread" />
       </list>
     </recent_temporary>
   </component>
@@ -376,10 +358,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="808" y="164" width="1292" height="484" extended-state="0" />
+    <frame x="27" y="219" width="1292" height="484" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.44486693" weight="0.24334899" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.44486693" visible="true" weight="0.24334899" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info active="true" anchor="bottom" x="0" y="243" width="1281" height="195" id="Run" order="2" visible="true" weight="0.36887607" />
@@ -433,30 +415,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter11/thread_queue_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#61#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter09/read_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/company.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CollectionsOverview/chapter08/iterable_iterator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -796,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter11/thread_condition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter11/thread_semaphore.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -810,12 +761,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/thread_condition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="13" lean-forward="true" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/AnacondaInstallLocation/Lib/concurrent/futures/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1520">
+          <caret line="535" column="6" selection-start-line="535" selection-start-column="6" selection-end-line="535" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/AnacondaInstallLocation/Lib/concurrent/futures/thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter11/concurrent_futures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="66">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding>
             <element signature="e#138#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/progress_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="e#107#118#0" expanded="true" />
           </folding>
         </state>
       </provider>
