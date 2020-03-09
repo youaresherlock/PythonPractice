@@ -59,17 +59,35 @@
       <file leaf-file-name="select_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter12/select_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="22">
+              <caret line="1" column="4" selection-end-line="1" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="select_http.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="select_http.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter12/select_http.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
+            <state relative-caret-position="2860">
               <caret line="132" selection-start-line="132" selection-end-line="132" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coroutine_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter12/coroutine_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gen_close.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter12/gen_close.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -79,15 +97,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
               <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thread_semaphore.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter11/thread_semaphore.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="17" selection-start-line="17" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -119,8 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CollectionsOverview/chapter01/collections_overview.py" />
-        <option value="$PROJECT_DIR$/CollectionsOverview/chapter01/tuple_test.py" />
         <option value="$PROJECT_DIR$/CollectionsOverview/chapter03/namedtuple_test.py" />
         <option value="$PROJECT_DIR$/CollectionsOverview/chapter04/defaultdict_test.py" />
         <option value="$PROJECT_DIR$/CollectionsOverview/chapter05/deque_test.py" />
@@ -170,20 +177,40 @@
         <option value="$PROJECT_DIR$/chapter11/progress_queue.py" />
         <option value="$PROJECT_DIR$/chapter12/select_test.py" />
         <option value="$PROJECT_DIR$/chapter12/select_http.py" />
+        <option value="$PROJECT_DIR$/chapter12/coroutine_test.py" />
+        <option value="$PROJECT_DIR$/chapter12/gen_close.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="489" />
-    <option name="y" value="123" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
     <option name="width" value="1938" />
-    <option name="height" value="825" />
+    <option name="height" value="813" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="python97" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python97" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python97" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python97" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="到底执行顺数&#9;null&#9;null" />
@@ -208,7 +235,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.select_test">
+  <component name="RunManager" selected="Python.gen_close">
+    <configuration name="coroutine_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python97" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter12/coroutine_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="gen_close" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python97" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter12/gen_close.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="multiprocessing_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,24 +308,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="progress_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python97" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter11/progress_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="select_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python97" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,38 +326,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="thread_condition" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python97" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter11/thread_condition.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.thread_condition" />
-      <item itemvalue="Python.progress_test" />
       <item itemvalue="Python.multiprocessing_test" />
       <item itemvalue="Python.progress_queue" />
       <item itemvalue="Python.select_test" />
+      <item itemvalue="Python.coroutine_test" />
+      <item itemvalue="Python.gen_close" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gen_close" />
+        <item itemvalue="Python.coroutine_test" />
         <item itemvalue="Python.select_test" />
         <item itemvalue="Python.progress_queue" />
         <item itemvalue="Python.multiprocessing_test" />
-        <item itemvalue="Python.thread_condition" />
-        <item itemvalue="Python.progress_test" />
       </list>
     </recent_temporary>
   </component>
@@ -333,12 +360,12 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.44486693" weight="0.24334899" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.44486693" visible="true" weight="0.24199843" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5027322" side_tool="true" visible="true" weight="0.26881722" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" x="0" y="243" width="1281" height="195" id="Run" order="2" weight="0.27060932" />
+      <window_info anchor="bottom" x="0" y="243" width="1281" height="195" id="Run" order="2" sideWeight="0.49726775" weight="0.26881722" />
       <window_info id="Structure" order="1" sideWeight="0.5551331" side_tool="true" weight="0.2425897" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -387,20 +414,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter12/select_http.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2860">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter10/socket_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter11/python_thread.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
@@ -715,16 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter11/multiprocessing_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="21" />
-          <folding>
-            <element signature="e#265#315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter11/progress_queue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1936">
@@ -732,13 +735,6 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter12/select_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -751,8 +747,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter12/select_http.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
+        <state relative-caret-position="2860">
           <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter12/select_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="4" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/multiprocessing_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="21" />
+          <folding>
+            <element signature="e#265#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter12/coroutine_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter12/gen_close.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
