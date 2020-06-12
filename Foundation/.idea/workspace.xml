@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8d4896e-2f41-4770-9d4c-1ffa850a7b9d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use_type.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use_type2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Django" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -210,7 +204,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557413837963</updated>
-      <workItem from="1591879059243" duration="1494000" />
+      <workItem from="1591879059243" duration="2257000" />
     </task>
     <servers />
   </component>
@@ -218,22 +212,26 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="200" key="GridCell.Tab.0.bottom" timestamp="1591880403888">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1591881316047">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="200" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591880403888" />
-    <state width="1237" height="200" key="GridCell.Tab.0.center" timestamp="1591880403887">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1591881316047" />
+    <state width="1237" height="200" key="GridCell.Tab.0.bottom" timestamp="1591881317628">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="200" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1591880403887" />
-    <state width="1237" height="200" key="GridCell.Tab.0.left" timestamp="1591880403886">
+    <state width="1237" height="200" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591881317628" />
+    <state width="1237" height="200" key="GridCell.Tab.0.center" timestamp="1591881317627">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="200" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1591880403886" />
-    <state width="1237" height="200" key="GridCell.Tab.0.right" timestamp="1591880403887">
+    <state width="1237" height="200" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1591881317627" />
+    <state width="1237" height="200" key="GridCell.Tab.0.left" timestamp="1591881317627">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="200" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1591880403887" />
+    <state width="1237" height="200" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1591881317627" />
+    <state width="1237" height="200" key="GridCell.Tab.0.right" timestamp="1591881317627">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="200" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1591881317627" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1591879183835">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
