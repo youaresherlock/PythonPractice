@@ -20,3 +20,5 @@ def myreadlines(f, newline):
 with open("input.txt") as f:
     for line in myreadlines(f, "{|}"):
         print(line)
+
+
