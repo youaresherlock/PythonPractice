@@ -1,6 +1,5 @@
 #!D:\AnacondaInstallLocation\python.exe
 # -*- coding:utf8 -*-
-
 print ("Content-type:text/html,Charset:gbk")
 print ()                             # 空行，告诉服务器结束头部
 print ('<html>')
