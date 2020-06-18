@@ -48,7 +48,8 @@ class ModelMetaclass(type):
         # 保存属性和列的映射关系
         attrs['__mappings__'] = mappings
         # 假设表名和类名一致
-        attrs['__table__'] = name
+        # attrs['__table__'] = name
+        attrs['__table__'] = attrs.get('Meta').table
         return type.__new__(cls, name, bases, attrs)
 
 
@@ -86,6 +87,9 @@ class User(Model):
     name = StringField('username')
     email = StringField('email')
     password = StringField('password')
+
+    class Meta:
+        table = "user"
 
 
 # 创建一个实例
