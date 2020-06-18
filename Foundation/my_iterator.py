@@ -9,17 +9,18 @@ __iter__() 方法返回一个特殊的迭代器对象， 这个迭代器对象�
 
 
 class MyNumbers(object):
-    # def __iter__(self):
-    #     self.a = 1
-    #     print("__iter__被调用了")
-    #     return self
+    def __iter__(self):
+        self.a = 1
+        print("__iter__被调用了")
+        return self
 
-    def __getitem__(self, item):
-        print("__getitem__被调用了")
-        if item <= 20:
-            return item
-        else:
-            raise StopIteration
+    # 支持索引操作
+    # def __getitem__(self, item):
+    #     print("__getitem__被调用了")
+    #     if item <= 20:
+    #         return item
+    #     else:
+    #         raise StopIteration
 
     def __next__(self):
         print("__next__被调用了")
@@ -37,6 +38,8 @@ for x in my_class:
 # my_iter = iter(my_class)
 # for x in my_iter:
 #     print(x)
+from collections.abc import Iterator
+print(isinstance(my_class, Iterator))
 
 
 
