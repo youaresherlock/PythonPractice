@@ -1,6 +1,12 @@
 #!usr/bin/python
 # -*- coding:utf8 -*-
 """
+getattribute: 在访问一个存在的属性时,新增提示功能
+getattr: 找不到attribute的时候，会调用getattr，返回一个值或AttributeError异常
+__getattr__ 在当前主流的Python版本中都可用，
+重载__getattr__方法对类及其实例未定义的属性有效。
+也就属性是说，如果访问的属性存在，就不会调用__getattr__方法。
+这个属性的存在，包括类属性和实例属性
 (1)__setattr__(self, item, value):
 会拦截所有属性的的赋值语句，如果定义了这个方法，在给属性变量赋值时会调用__setattr__(self, item, value)方法，执行self.__dict__[key] = value。当在__setattr__(self, item, value)方法内对属性进行赋值时，不可使用self.name = value,因为他会再次调用__setattr__(self, item, value)方法形成无限循环，最后导致堆栈溢出异常。应该通过对属性字典做索引运算来赋值任何实例属性，也就是使用self.__dict__[‘name’] = value.
 (2)__setitem__(self, key, value):
@@ -31,3 +37,29 @@ result = obj['k1']      # 自动触发执行 __getitem__
 obj['k2'] = 'jack'      # 自动触发执行 __setitem__
 
 del obj['k1']     # 自动触发执行 __delitem__
+
+
+# class Person(object):
+#
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age  = age
+#
+#     # 在访问一个存在的属性时,新增提示功能
+#     def __getattribute__(self, name):
+#         print("你正在访问一个存在属性")
+#
+#         # return getattr(self, name)       # 递归错误，默认1000次
+#         # return self.__dict__[name]       # 递归错误，默认1000次
+#         return super(Person, self).__getattribute__(name)
+#
+#     # 找不到attribute的时候，会调用getattr，返回一个值或AttributeError异常
+#     def __getattr__(self, name, value):
+#         # setattr(self, name, value)
+#         self.__dict__[name] = value
+#
+#
+# if __name__ == '__main__':
+#     p = Person('jaon', 25)
+#     print(p.name)
+
