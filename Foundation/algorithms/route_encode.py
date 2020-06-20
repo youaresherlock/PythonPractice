@@ -35,6 +35,15 @@ for index, value in enumerate(message_list):
 print(buf.rstrip(','))
 
 
-
-
-
+"""
+方法二: 
+line = input()
+count = 1
+for i in range(1, len(line)):
+    if line[i] == line[i - 1]:
+        count += 1
+    else:
+        print("(" + str(count) + "," + line[i - 1] + "),",end="")
+        count = 1
+print("(" + str(count) + "," + line[-1] + ")")
+"""
