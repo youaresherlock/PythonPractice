@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8d4896e-2f41-4770-9d4c-1ffa850a7b9d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/insertsort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_producer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorymanage/classdecorator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +47,8 @@
       <recent name="C:\Users\Clarence\Desktop\PythonTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.consumer_producer">
-    <configuration name="bubblesort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.classdecorator">
+    <configuration name="classdecorator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,12 +56,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/memorymanage" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/bubblesort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/memorymanage/classdecorator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,65 +136,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quicksort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for classdecorator.test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/memorymanage" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/quicksort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;classdecorator.test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="selection_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in classdecorator.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/memorymanage" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/selection_sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/memorymanage/classdecorator.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.comprehensive" />
-      <item itemvalue="Python.quicksort" />
-      <item itemvalue="Python.bubblesort" />
-      <item itemvalue="Python.selection_sort" />
       <item itemvalue="Python.insertsort" />
       <item itemvalue="Python.consumer_producer" />
+      <item itemvalue="Python tests.pytest in classdecorator.py" />
+      <item itemvalue="Python tests.pytest for classdecorator.test" />
+      <item itemvalue="Python.classdecorator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.classdecorator" />
+        <item itemvalue="Python tests.pytest for classdecorator.test" />
+        <item itemvalue="Python tests.pytest in classdecorator.py" />
         <item itemvalue="Python.consumer_producer" />
         <item itemvalue="Python.insertsort" />
-        <item itemvalue="Python.selection_sort" />
-        <item itemvalue="Python.bubblesort" />
-        <item itemvalue="Python.quicksort" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +215,9 @@
       <workItem from="1592291447863" duration="9000" />
       <workItem from="1592310163441" duration="5760000" />
       <workItem from="1592441091921" duration="18132000" />
-      <workItem from="1592528422541" duration="10239000" />
+      <workItem from="1592528422541" duration="10894000" />
+      <workItem from="1592613966345" duration="43000" />
+      <workItem from="1592614100853" duration="2067000" />
     </task>
     <servers />
   </component>
@@ -248,6 +239,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="340" y="0" key="#async_fetch_from_server/0.0.1280.680@0.0.1280.680" timestamp="1592289497024" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592615059918">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1592615059918" />
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1592537799285">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -256,38 +251,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1592537309923" />
-    <state width="1237" height="201" key="GridCell.Tab.0.bottom" timestamp="1592569051093">
+    <state width="1237" height="193" key="GridCell.Tab.0.bottom" timestamp="1592616172057">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="201" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592569051093" />
-    <state width="1237" height="201" key="GridCell.Tab.0.center" timestamp="1592569051092">
+    <state width="1237" height="193" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592616172057" />
+    <state width="1237" height="193" key="GridCell.Tab.0.center" timestamp="1592616172056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="201" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592569051092" />
-    <state width="1237" height="201" key="GridCell.Tab.0.left" timestamp="1592569051092">
+    <state width="1237" height="193" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592616172056" />
+    <state width="1237" height="193" key="GridCell.Tab.0.left" timestamp="1592616172056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="201" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592569051092" />
-    <state width="1237" height="201" key="GridCell.Tab.0.right" timestamp="1592569051092">
+    <state width="1237" height="193" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592616172056" />
+    <state width="1237" height="193" key="GridCell.Tab.0.right" timestamp="1592616172056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="201" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592569051092" />
-    <state width="1237" height="193" key="GridCell.Tab.1.bottom" timestamp="1592047908586">
+    <state width="1237" height="193" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592616172056" />
+    <state width="1237" height="193" key="GridCell.Tab.1.bottom" timestamp="1592616172058">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592047908586" />
-    <state width="1237" height="193" key="GridCell.Tab.1.center" timestamp="1592047908585">
+    <state width="1237" height="193" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592616172058" />
+    <state width="1237" height="193" key="GridCell.Tab.1.center" timestamp="1592616172057">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1592047908585" />
-    <state width="1237" height="193" key="GridCell.Tab.1.left" timestamp="1592047908584">
+    <state width="1237" height="193" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1592616172057" />
+    <state width="1237" height="193" key="GridCell.Tab.1.left" timestamp="1592616172057">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1592047908584" />
-    <state width="1237" height="193" key="GridCell.Tab.1.right" timestamp="1592047908585">
+    <state width="1237" height="193" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1592616172057" />
+    <state width="1237" height="193" key="GridCell.Tab.1.right" timestamp="1592616172057">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1592047908585" />
+    <state width="1237" height="193" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1592616172057" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1592289724359">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -299,6 +294,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Foundation$sync_async_execution.coverage" NAME="sync_async_execution Coverage Results" MODIFIED="1592117434939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/asynciopractice" />
+    <SUITE FILE_PATH="coverage/Foundation$pytest_for_classdecorator_test.coverage" NAME="pytest for classdecorator.test Coverage Results" MODIFIED="1592615074466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/memorymanage" />
     <SUITE FILE_PATH="coverage/Foundation$use_type3.coverage" NAME="use_type3 Coverage Results" MODIFIED="1592448773229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/metaclassPractice" />
     <SUITE FILE_PATH="coverage/Foundation$quicksort.coverage" NAME="quicksort Coverage Results" MODIFIED="1592480422516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
     <SUITE FILE_PATH="coverage/Foundation$ormdemo.coverage" NAME="ormdemo Coverage Results" MODIFIED="1592478689266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/metaclassPractice" />
@@ -319,9 +315,11 @@
     <SUITE FILE_PATH="coverage/Foundation$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1592097609504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/asynciopractice" />
     <SUITE FILE_PATH="coverage/Foundation$scope.coverage" NAME="scope Coverage Results" MODIFIED="1592310273518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Foundation$add_method.coverage" NAME="add_method Coverage Results" MODIFIED="1592225775756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/magic_method" />
+    <SUITE FILE_PATH="coverage/Foundation$classdecorator.coverage" NAME="classdecorator Coverage Results" MODIFIED="1592616171781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/memorymanage" />
     <SUITE FILE_PATH="coverage/Foundation$consumer_producer.coverage" NAME="consumer_producer Coverage Results" MODIFIED="1592569051054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Foundation$my_iterator.coverage" NAME="my_iterator Coverage Results" MODIFIED="1592477047718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Foundation$use_yield_fibonacci.coverage" NAME="use_yield_fibonacci Coverage Results" MODIFIED="1592044824360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Foundation$pytest_in_classdecorator_py.coverage" NAME="pytest in classdecorator.py Coverage Results" MODIFIED="1592615035936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/memorymanage" />
     <SUITE FILE_PATH="coverage/Foundation$cgi.coverage" NAME="cgi Coverage Results" MODIFIED="1592117702303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
