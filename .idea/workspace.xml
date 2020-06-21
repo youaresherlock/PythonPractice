@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02c16178-0c8c-4669-ac05-5f9b6fd907a1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Foundation/regexpractice/group.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Foundation/regexpractice/match.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Foundation/regexpractice/search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/pluggable_design/msg_bag/phone.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/pluggable_design/msg_bag/phone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Foundation/magic_method/getitem_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Foundation/magic_method/getitem_method.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +203,8 @@
       <updated>1558492079496</updated>
       <workItem from="1592633987077" duration="5218000" />
       <workItem from="1592640533323" duration="3037000" />
-      <workItem from="1592699563350" duration="6982000" />
+      <workItem from="1592699563350" duration="9373000" />
+      <workItem from="1592727806797" duration="620000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;test if the vcs works&quot;">
       <created>1558493176288</created>
