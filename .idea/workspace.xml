@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02c16178-0c8c-4669-ac05-5f9b6fd907a1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Foundation/evalpra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Foundation/regexpractice/group.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Foundation/regexpractice/match.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Foundation/regexpractice/search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/pluggable_design/msg_bag/phone.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/pluggable_design/msg_bag/phone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Foundation/magic_method/getitem_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Foundation/magic_method/getitem_method.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +68,8 @@
       <recent name="C:\Users\Clarence\Desktop\PythonPractice\FlaskFramework\flask_redis_webNewsApp\flaskAndRedis" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.evalpra">
-    <configuration name="choice_food" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.getitem_method">
+    <configuration name="getitem_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,12 +77,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Foundation/algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Foundation/magic_method" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Foundation/algorithms/choice_food.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Foundation/magic_method/getitem_method.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="classdecorator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="group" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,12 +99,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Foundation/memorymanage" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Foundation/regexpractice" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Foundation/memorymanage/classdecorator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Foundation/regexpractice/group.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="evalpra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="match" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,12 +121,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Foundation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Foundation/regexpractice" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Foundation/evalpra.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Clarence\Desktop\PythonPractice\Foundation\regexpractice\match.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read_big_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="phone" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,12 +143,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python核心技术与实战/05" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django/pluggable_design/msg_bag" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python核心技术与实战/05/read_big_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/pluggable_design/msg_bag/phone.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="route_encode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,12 +165,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Foundation/algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Foundation/regexpractice" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Foundation/algorithms/route_encode.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Foundation/regexpractice/search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,19 +180,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.route_encode" />
-      <item itemvalue="Python.choice_food" />
-      <item itemvalue="Python.classdecorator" />
-      <item itemvalue="Python.read_big_file" />
-      <item itemvalue="Python.evalpra" />
+      <item itemvalue="Python.match" />
+      <item itemvalue="Python.search" />
+      <item itemvalue="Python.group" />
+      <item itemvalue="Python.phone" />
+      <item itemvalue="Python.getitem_method" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.evalpra" />
-        <item itemvalue="Python.read_big_file" />
-        <item itemvalue="Python.choice_food" />
-        <item itemvalue="Python.classdecorator" />
-        <item itemvalue="Python.route_encode" />
+        <item itemvalue="Python.getitem_method" />
+        <item itemvalue="Python.phone" />
+        <item itemvalue="Python.group" />
+        <item itemvalue="Python.search" />
+        <item itemvalue="Python.match" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +208,7 @@
       <updated>1558492079496</updated>
       <workItem from="1592633987077" duration="5218000" />
       <workItem from="1592640533323" duration="3037000" />
+      <workItem from="1592699563350" duration="6982000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;test if the vcs works&quot;">
       <created>1558493176288</created>
@@ -420,40 +425,45 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;flask-redis-news app over&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="140" key="GridCell.Tab.0.bottom" timestamp="1592645704336">
+    <state width="1237" height="140" key="GridCell.Tab.0.bottom" timestamp="1592717831599">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592645704336" />
-    <state width="1237" height="140" key="GridCell.Tab.0.center" timestamp="1592645704335">
+    <state width="1237" height="140" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592717831599" />
+    <state width="1237" height="140" key="GridCell.Tab.0.center" timestamp="1592717831598">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592645704335" />
-    <state width="1237" height="140" key="GridCell.Tab.0.left" timestamp="1592645704335">
+    <state width="1237" height="140" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592717831598" />
+    <state width="1237" height="140" key="GridCell.Tab.0.left" timestamp="1592717831598">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592645704335" />
-    <state width="1237" height="140" key="GridCell.Tab.0.right" timestamp="1592645704335">
+    <state width="1237" height="140" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592717831598" />
+    <state width="1237" height="140" key="GridCell.Tab.0.right" timestamp="1592717831599">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592645704335" />
+    <state width="1237" height="140" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592717831599" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1592634061729">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1592634061729" />
-    <state x="339" y="74" width="603" height="532" key="find.popup" timestamp="1592637469480">
+    <state x="339" y="74" width="603" height="584" key="find.popup" timestamp="1592703945513">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="339" y="74" width="603" height="532" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1592637469480" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1592642622218">
+    <state x="339" y="74" width="603" height="584" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1592703945513" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1592717892190">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1592642622218" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1592717892190" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonPractice$phone.coverage" NAME="phone Coverage Results" MODIFIED="1592705114135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/pluggable_design/msg_bag" />
     <SUITE FILE_PATH="coverage/PythonPractice$count_num.coverage" NAME="count_num Coverage Results" MODIFIED="1592634761093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Foundation/algorithms" />
+    <SUITE FILE_PATH="coverage/PythonPractice$compile.coverage" NAME="compile Coverage Results" MODIFIED="1592700622236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Foundation/regexpractice" />
     <SUITE FILE_PATH="coverage/PythonPractice$route_encode.coverage" NAME="route_encode Coverage Results" MODIFIED="1592635411260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Foundation/algorithms" />
     <SUITE FILE_PATH="coverage/PythonPractice$choice_food.coverage" NAME="choice_food Coverage Results" MODIFIED="1592638834204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Foundation/algorithms" />
     <SUITE FILE_PATH="coverage/PythonPractice$evalpra.coverage" NAME="evalpra Coverage Results" MODIFIED="1592643381976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Foundation" />
+    <SUITE FILE_PATH="coverage/PythonPractice$search.coverage" NAME="search Coverage Results" MODIFIED="1592700785601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Foundation/regexpractice" />
+    <SUITE FILE_PATH="coverage/PythonPractice$group.coverage" NAME="group Coverage Results" MODIFIED="1592701415867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Foundation/regexpractice" />
+    <SUITE FILE_PATH="coverage/PythonPractice$getitem_method.coverage" NAME="getitem_method Coverage Results" MODIFIED="1592717831565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Foundation/magic_method" />
     <SUITE FILE_PATH="coverage/PythonPractice$classdecorator.coverage" NAME="classdecorator Coverage Results" MODIFIED="1592638035453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Foundation/memorymanage" />
     <SUITE FILE_PATH="coverage/PythonPractice$read_big_file.coverage" NAME="read_big_file Coverage Results" MODIFIED="1592641358618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python核心技术与实战/05" />
   </component>

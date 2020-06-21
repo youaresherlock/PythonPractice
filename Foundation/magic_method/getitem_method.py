@@ -1,9 +1,7 @@
 #!usr/bin/python
 # -*- coding:utf8 -*-
 """
-getattribute: 在访问一个存在的属性时,新增提示功能
-getattr: 找不到attribute的时候，会调用getattr，返回一个值或AttributeError异常
-__getattr__ 在当前主流的Python版本中都可用，
+getattribute: 无论访问的属性存在或者不存在,都会调用, 同时存在也会调用getattribute方法
 重载__getattr__方法对类及其实例未定义的属性有效。
 也就属性是说，如果访问的属性存在，就不会调用__getattr__方法。
 这个属性的存在，包括类属性和实例属性
@@ -29,14 +27,21 @@ class Foo:
 
         print('__delitem__',key)
 
+    def __getattr__(self, item):
+        print('getattr', item)
+
+    def __getattribute__(self, item):
+        print("getattribute", item)
+
 
 obj = Foo()
 
-result = obj['k1']      # 自动触发执行 __getitem__
-
-obj['k2'] = 'jack'      # 自动触发执行 __setitem__
-
-del obj['k1']     # 自动触发执行 __delitem__
+# result = obj['k1']      # 自动触发执行 __getitem__
+#
+# obj['k2'] = 'jack'      # 自动触发执行 __setitem__
+#
+# del obj['k1']     # 自动触发执行 __delitem__
+obj.name
 
 
 # class Person(object):
