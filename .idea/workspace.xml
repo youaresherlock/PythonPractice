@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02c16178-0c8c-4669-ac05-5f9b6fd907a1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Foundation/algorithms/lrucache.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Foundation/algorithms/count_num.py" beforeDir="false" afterPath="$PROJECT_DIR$/Foundation/algorithms/count_num.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +207,7 @@
       <workItem from="1592640533323" duration="3037000" />
       <workItem from="1592699563350" duration="9373000" />
       <workItem from="1592727806797" duration="620000" />
+      <workItem from="1592828108703" duration="2422000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;test if the vcs works&quot;">
       <created>1558493176288</created>
@@ -445,10 +448,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="339" y="74" width="603" height="584" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1592703945513" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1592717892190">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1592831970163">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1592717892190" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1592831970163" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonPractice$phone.coverage" NAME="phone Coverage Results" MODIFIED="1592705114135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/pluggable_design/msg_bag" />

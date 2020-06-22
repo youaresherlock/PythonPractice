@@ -1,7 +1,8 @@
 #!usr/bin/python
 # -*- coding:utf8 -*-
 """
-输入字符串, 返回排序后的列表[(字符， 个数)]
+输入字符串, 返回排序后的列表[#!usr/bin/python
+# -*- coding:utf8 -*-(字符， 个数)]
 """
 
 
