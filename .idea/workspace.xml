@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02c16178-0c8c-4669-ac05-5f9b6fd907a1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Foundation/algorithms/lrucache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Foundation/algorithms/汉诺塔.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Foundation/algorithms/count_num.py" beforeDir="false" afterPath="$PROJECT_DIR$/Foundation/algorithms/count_num.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,29 @@
       <recent name="C:\Users\Clarence\Desktop\PythonPractice\FlaskFramework\flask_redis_webNewsApp\flaskAndRedis" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.getitem_method">
+  <component name="RunManager" selected="Python.汉诺塔">
+    <configuration name="汉诺塔" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Foundation/algorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Foundation/algorithms/汉诺塔.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="getitem_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,28 +123,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Foundation/regexpractice/group.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="match" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonPractice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Foundation/regexpractice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Clarence\Desktop\PythonPractice\Foundation\regexpractice\match.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,19 +176,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.match" />
       <item itemvalue="Python.search" />
       <item itemvalue="Python.group" />
       <item itemvalue="Python.phone" />
       <item itemvalue="Python.getitem_method" />
+      <item itemvalue="Python.汉诺塔" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.汉诺塔" />
         <item itemvalue="Python.getitem_method" />
         <item itemvalue="Python.phone" />
         <item itemvalue="Python.group" />
         <item itemvalue="Python.search" />
-        <item itemvalue="Python.match" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +206,7 @@
       <workItem from="1592640533323" duration="3037000" />
       <workItem from="1592699563350" duration="9373000" />
       <workItem from="1592727806797" duration="620000" />
-      <workItem from="1592828108703" duration="2422000" />
+      <workItem from="1592828108703" duration="4161000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;test if the vcs works&quot;">
       <created>1558493176288</created>
@@ -424,22 +423,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;flask-redis-news app over&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="140" key="GridCell.Tab.0.bottom" timestamp="1592717831599">
+    <state width="1237" height="140" key="GridCell.Tab.0.bottom" timestamp="1592834125684">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592717831599" />
-    <state width="1237" height="140" key="GridCell.Tab.0.center" timestamp="1592717831598">
+    <state width="1237" height="140" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592834125684" />
+    <state width="1237" height="140" key="GridCell.Tab.0.center" timestamp="1592834125683">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592717831598" />
-    <state width="1237" height="140" key="GridCell.Tab.0.left" timestamp="1592717831598">
+    <state width="1237" height="140" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592834125683" />
+    <state width="1237" height="140" key="GridCell.Tab.0.left" timestamp="1592834125683">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592717831598" />
-    <state width="1237" height="140" key="GridCell.Tab.0.right" timestamp="1592717831599">
+    <state width="1237" height="140" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592834125683" />
+    <state width="1237" height="140" key="GridCell.Tab.0.right" timestamp="1592834125684">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592717831599" />
+    <state width="1237" height="140" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592834125684" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1592634061729">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -465,5 +464,6 @@
     <SUITE FILE_PATH="coverage/PythonPractice$getitem_method.coverage" NAME="getitem_method Coverage Results" MODIFIED="1592717831565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Foundation/magic_method" />
     <SUITE FILE_PATH="coverage/PythonPractice$classdecorator.coverage" NAME="classdecorator Coverage Results" MODIFIED="1592638035453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Foundation/memorymanage" />
     <SUITE FILE_PATH="coverage/PythonPractice$read_big_file.coverage" NAME="read_big_file Coverage Results" MODIFIED="1592641358618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python核心技术与实战/05" />
+    <SUITE FILE_PATH="coverage/PythonPractice$.coverage" NAME="汉诺塔 Coverage Results" MODIFIED="1592834125650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Foundation/algorithms" />
   </component>
 </project>
