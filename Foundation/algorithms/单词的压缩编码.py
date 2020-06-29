@@ -13,18 +13,16 @@ input:
 output:
     输出一个整数，表示对给定单词列表进行编码的最小字符串长度
 """
+
 # 单词的压缩编码
 num_list = input().split(',')
-print(num_list)  # []
 n_set = set(num_list)  # {}
 for word in num_list:
     for i in range(1, len(word)):
         # 移除指定的集合元素
         n_set.discard(word[i:])
-        print(n_set)
 result = sum(len(i) + 1 for i in n_set)
 print(result)
-
 
 
 
