@@ -15,6 +15,14 @@ Input:
     接下来的 M 行每行包含两个不同的整数，用一个空格隔开，表示一个区域的起始点和终止点的坐标。
 Output:
     输出包括一行，这一行只包含一个整数，表示马路上剩余的树的数目。
+
+Input:
+500 3
+150 300
+100 200
+470 471
+Output:
+298
 """
 message = input().split(' ')
 L, M = message[0], message[1]
@@ -23,16 +31,12 @@ bucket = [1] * (int(L) + 1)
 for i in range(1, int(M) + 1):
     message = input().split(' ')
     start, end = message[0], message[1]
+    if int(start) > int(end):
+        start, end = end, start
     for j in range(int(start), int(end) + 1):
         bucket[j] = 0
-        
-print(bucket)
+
 print(sum(bucket))
-
-
-
-
-
 
 
 
