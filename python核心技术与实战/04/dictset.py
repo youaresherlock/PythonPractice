@@ -86,7 +86,7 @@ if __name__ == "__main__":
 
     # 字典排序
     d = {'b': 1, 'a': 2, 'c': 10}
-    # 根据字典键的升序排序
+    # 根据字典键的升序排序 d.items()元素为元组的列表
     d_sorted_by_key = sorted(d.items(), key=lambda x: x[0])
     print(d_sorted_by_key)
     # 根据字典值的升序排序
