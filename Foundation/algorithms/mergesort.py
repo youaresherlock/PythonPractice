@@ -7,7 +7,7 @@
 from typing import List
 
 
-def merge(arr1:List[int], arr2:List[int]):
+def merge(arr1: List[int], arr2: List[int]):
     result = []
     while arr1 and arr2:
         if arr1[0] < arr2[0]:
@@ -21,7 +21,7 @@ def merge(arr1:List[int], arr2:List[int]):
     return result
 
 
-def merge_sort(arr:List[int]):
+def merge_sort(arr: List[int]):
     if len(arr) <= 1:
         return arr
     mid = len(arr) // 2
