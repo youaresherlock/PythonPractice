@@ -14,15 +14,15 @@
 
 def move(n, a, b, c):
     if n == 1:
-        print(a, "--->", c)
+        print('Move disk {} from {} to {}'.format(n, a, c))
         return
     move(n-1, a, c, b)
-    print(a, "--->", c)
+    print('Move disk {} from {} to {}'.format(n, a, c))
     move(n-1, b, a, c)
 
 
-move(3, 'from', 'by', 'to')
-
+n = int(input())
+move(n, 'A', 'B', 'C')
 
 
 
