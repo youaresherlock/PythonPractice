@@ -1,6 +1,6 @@
 #!usr/bin/python
 # -*- coding:utf8 -*-
-# 默认情况下,Python3源码文件以UTF-8编码，所有字符串都是unicode字符串,Python3源码文件是ASCII编码
+# 默认情况下,Python3源码文件以UTF-8编码，所有字符串都是unicode字符串,Python2源码文件是ASCII编码
 import random
 
 def get_data():
