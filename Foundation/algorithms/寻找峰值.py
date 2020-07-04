@@ -24,15 +24,20 @@ for i in range(1, length - 1):
 
 
 # 二分
-# def find_top(message_list):
-#     pivot = length // 2
-#     if 1 < pivot < length - 1 and message_list[pivot] > message_list[pivot-1] and \
-#             message_list[pivot] > message_list[pivot+1]:
-#         print(pivot)
-#         return 1
+# n = int(input())
+# num = list(map(int, input().split(' ')))
+# if len(num) < 3:
+#     if len(num) == 1:
+#         print(0)
+#     else:
+#         print(0 if num[0] > num[1] else 1)
 #
-#     return find_top(message_list[:pivot+1]) or find_top(message_list[pivot+1:])
-#
-#
-# find_top(message_list)
-
+# l = 0
+# r = len(num) - 1
+# while l < r:
+#     m = (l + r + 1) // 2
+#     if num[m] > num[m - 1]:
+#         l = m
+#     else:
+#         r = m - 1
+# print(l)

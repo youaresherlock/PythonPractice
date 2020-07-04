@@ -1,0 +1,9 @@
+2020-07-03 23:17:10,897 - root - DEBUG - 19788 - 17676 - 单日志文件: debug
+2020-07-03 23:17:10,907 - root - INFO - 19788 - 17676 - 单日志文件: info
+2020-07-03 23:17:10,908 - root - ERROR - 19788 - 17676 - 单日志文件: error
+2020-07-03 23:18:03,166 - root - DEBUG - thread_id: 9460 - process_id: 13068 - 单日志文件: debug
+2020-07-03 23:18:03,167 - root - INFO - thread_id: 9460 - process_id: 13068 - 单日志文件: info
+2020-07-03 23:18:03,168 - root - ERROR - thread_id: 9460 - process_id: 13068 - 单日志文件: error
+2020-07-03 23:19:28,407 - root - DEBUG - line_number: 11 - thread_id: 7112 - process_id: 12788 - 单日志文件: debug
+2020-07-03 23:19:28,408 - root - INFO - line_number: 12 - thread_id: 7112 - process_id: 12788 - 单日志文件: info
+2020-07-03 23:19:28,416 - root - ERROR - line_number: 13 - thread_id: 7112 - process_id: 12788 - 单日志文件: error
