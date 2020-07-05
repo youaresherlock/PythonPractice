@@ -22,6 +22,8 @@ Least Recent used 最近最少使用算法，主要用于缓存淘汰.
 
 在Python的collections包中，已经内置了这种实用的结构OrderedDict，OrderedDict是dict的子类，
 但是存储在内部的元素是有序的（列表的特点）。
+
+OrderedDict的顺序就是添加元素的顺序
 """
 from collections import OrderedDict
 
