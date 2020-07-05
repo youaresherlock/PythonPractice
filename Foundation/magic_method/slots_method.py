@@ -19,7 +19,7 @@ obj2 = Foo()
 # 动态添加实例变量
 obj1.name = "jack"
 obj2.age = 18
-obj1.sex = "male"       # 这一句会弹出错误
+# obj1.sex = "male"       # 这一句会弹出错误
 # 但是无法限制给类添加方法
 Foo.show = print_doc
 obj1.show()

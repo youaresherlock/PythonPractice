@@ -8,6 +8,7 @@ class FirstMetaClass(type):
     # name代表动态修改的类名
     # bases代表被动态修改的类的所有父类
     # attr代表被动态修改的类的所有属性、方法组成的字典
+    # def __new__(cls, *args, **kwargs) name bases attrs传入args,成为一个元组
     def __new__(cls, name, bases, attrs):
         print(name, bases, attrs, attrs.get('Meta').table)
         # 动态为该类添加一个name属性

@@ -55,7 +55,6 @@ A = type(
     }
 )
 
-
 a = A('小王')
 print(a.role, a.name)  # student 小王
 
