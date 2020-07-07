@@ -61,7 +61,7 @@ def main():
          'http://www.zongheng.com/rank.html',
          'http://book.zongheng.com/store/c0/c0/b0/u0/p1/v9/s1/t0/u0/i1/ALL.html',
          'http://search.zongheng.com/s?keyword=%E9%9B%AA%E4%B8%AD%E6%82%8D%E5%88%80%E8%A1%8C'
-    ]
+    ] * 10
     start_time = time.perf_counter()
     download_all(sites)
     end_time = time.perf_counter()
