@@ -1,0 +1,39 @@
+# 定义对象，冒号分隔，冒号后面必须要有空格
+#username: itcast
+
+# 定义数组
+# python中：{'dogs': ['泰迪', '京巴', '中华田园犬', '藏獒']}
+# dogs: ['泰迪','京巴','中华田园犬','藏獒']
+# {'dogs': ['泰迪', '京巴', '中华田园犬']}
+#dogs:
+#  - 泰迪
+#  - 京巴
+#  - 中华田园犬
+
+# 标准日期格式：年月日、时分秒
+# 非标准日期格式：results={'datatime': '2020-07-24 09:51'}
+# datatime: 2020-7-24 9:51
+# 标准日期格式：results={'datatime': datetime.datetime(2020, 7, 24, 9, 51, 30)}
+#datatime: 2020-7-24 9:51:30
+
+# 定义锚点
+#dogs: &dog
+#  value: 泰迪
+#  value2: 中华田园犬
+
+# 引用锚点中的数据
+# results={'dogs': {'value': '泰迪', 'value2': '中华田园犬'}, 'animals': {'value': '泰迪', 'value2': '中华田园犬', 'cat': '波斯猫'}}
+#animals:
+#  <<: *dog
+#  cat: 波斯猫
+
+
+# 用户信息的存储：
+data:
+  name: 张三
+  age: 20
+  mobile: 13012345678
+data3:
+  age: 30
+  mobile: '18812345678'
+  name: 李四
