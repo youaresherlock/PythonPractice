@@ -1,17 +1,20 @@
 #!usr/bin/python
 # -*- coding:utf8 -*-
+"""
+获取新浪首页，查看response.text 和response.content.decode()的区别
+"""
 import requests
 
 
-url = 'https://www.baidu.com'
+url = 'https://www.weibo.com/'
 
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                          "AppleWebKit/537.36 (KHTML, like Gecko) "
                          "Chrome/54.0.2840.99 Safari/537.36"}
 
-# 在请求头中带上User-Agent，模拟浏览器发送请求
-response = requests.get(url, headers=headers) 
+response = requests.get(url, headers=headers)
 
-print(response.content.decode() == response.text)  # True
+print(response.content)
+print(response.content.decode('gbk'))
 
-print(response.encoding)
+response.close()
