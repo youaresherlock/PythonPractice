@@ -20,6 +20,6 @@ response = requests.get(url, headers=headers, params=params)
 
 
 with open('demo2.html', 'w', encoding='utf-8') as f:
-    f.write(response.content.decode())
+    f.write(response.text)
 
 response.close()

@@ -3,6 +3,7 @@
 """
 实现任意贴吧的爬虫，保存多个网页到本地  count = 5 李宇春-1.html
 """
+import os
 import requests
 
 url = 'https://tieba.baidu.com/f'
@@ -16,12 +17,15 @@ headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) "
 
 search = input('please input message...')
 count = input('please input count number...')
-
+cwd = os.getcwd()
+path = cwd + os.sep + 'tieba'
+if not os.path.exists(path):
+    os.mkdir(path)
 for i in range(int(count)):
     pn = count * 50
     params = {'kw': search, 'pn': pn}
     response = requests.get(url, headers=headers, params=params)
-    with open('demo3_{}.html'.format(i), 'w', encoding='utf-8') as f:
-        f.write(response.content.decode())
+    with open('./tieba/demo3_{}.html'.format(i), 'w', encoding='utf-8') as f:
+        f.write(response.text)
 
     response.close()
