@@ -38,8 +38,9 @@ for x in my_class:
 # my_iter = iter(my_class)
 # for x in my_iter:
 #     print(x)
-from collections.abc import Iterator, Iterable
-print(isinstance(my_class, Iterator), isinstance(my_class, Iterable))
+from collections.abc import Iterator, Iterable, Sequence
+print(isinstance(my_class, Iterator), isinstance(my_class, Iterable),
+      isinstance(my_class, Sequence))
 
 
 
