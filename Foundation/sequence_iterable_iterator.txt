@@ -1,0 +1,7 @@
+python中的sequence/iterable/iterator:
+1. sequence __getitem__()和__len__() 但字典dict虽然有这两个方法,
+但被认为是mapping而不是sequence   像list, str, tuple, bytes都是sequence
+
+2. iterable __iter__()或者__getitem__()
+
+3. iterator __iter__()和__next__()方法
