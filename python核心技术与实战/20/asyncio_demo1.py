@@ -6,7 +6,7 @@ import asyncio
 
 async def worker_1():
     print('worker_1 start')
-    await asyncio.sleep(1)
+    await asyncio.sleep(10)
     print('worker_1 done')
 
 
