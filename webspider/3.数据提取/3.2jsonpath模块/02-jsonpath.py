@@ -37,11 +37,12 @@ from jsonpath import jsonpath
 
 # 获取所有的作者
 # res = jsonpath(book_dict, '$.store.book[*].author')
-res = jsonpath(book_dict, '$..author')
+# res = jsonpath(book_dict, '$..author')
 
 # 获取第一本书的作者
 # res = jsonpath(book_dict, '$.store.book[1].author')
 
+res = jsonpath(book_dict, '$..book')
 print(res)
 
 
