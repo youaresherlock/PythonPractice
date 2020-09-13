@@ -2,22 +2,6 @@
 # -*- coding:utf8 -*-
 """
 url http://fanyi.youdao.com/
-
-i: 你好
-from: zh-CHS
-to: en
-smartresult: dict
-client: fanyideskweb
-
-
-salt: 15999010448871
-sign: 69a52a3010eba1cca3d4f9a3c10d5cc1
-lts: 1599901044887
-bv: 02edb5d6c6ac4286cd4393133e5aab14
-doctype: json
-version: 2.1
-keyfrom: fanyi.web
-action: FY_BY_REALTlME
 """
 import time
 import random
