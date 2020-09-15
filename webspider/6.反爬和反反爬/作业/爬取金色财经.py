@@ -6,6 +6,7 @@ https://api.jinse.com/v6/www/information/list?catelogue_key=tech
 import time
 import json
 import requests
+from pymongo import MongoClient
 
 
 class JinSeSpider(object):
@@ -17,6 +18,8 @@ class JinSeSpider(object):
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"
         }
         self.page = page
+        client = MongoClient('localhost', 27017)
+        self.collection = client.jinse.tech
 
     def send_request(self, url):
         response = requests.get(url, headers=self.headers)
@@ -46,6 +49,9 @@ class JinSeSpider(object):
         with open('tech_{}.json'.format(page), 'w', encoding='utf8') as f:
             content = json.dumps(content_list, ensure_ascii=False, indent=1)
             f.write(content)
+
+        res = self.collection.insert_many(content_list)
+        print(res)
 
     def run(self):
         next_url = self.base_url

@@ -122,8 +122,13 @@ db.stu.aggregate(
      )
 _id表示对哪个字段分组依据
 
-
-
+创建索引
+ensureIndex/createIndex
+db.集合名.ensureIndex({属性:1}), 1表示升序,-1表示降序
+删除索引
+db.集合名.dropIndex({'索引名称':1}}
+查看索引
+db.集合名.getIndexes()
 
 
 
