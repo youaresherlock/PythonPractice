@@ -31,7 +31,7 @@ eg: db.createCollection('sub', {capped: true, size: 10})
 检查集合是否设定上限: db.集合名称.isCapped()
 
 注意点:
-每个文档都有一个属性,为_id,保证米格文档的唯一性，是主键.
+每个文档都有一个属性,为_id,保证每个文档的唯一性，是主键.
 构成:
     4个字节的时间戳
     3个字节的机器id
@@ -117,20 +117,24 @@ justOne:可选， 如果设为true或1，则只删除一条，默认false，表示删除全部
 
 聚合:
 db.stu.aggregate(
-     {$match:{age:{$gt:20}}
+     {$match:{age:{$gt:20}},
      {$group:{_id:"$gender",counter:{$sum:1}}}
      )
 _id表示对哪个字段分组依据
 
 创建索引
+    加快查询速度
+    进行数据的去重
 ensureIndex/createIndex
 db.集合名.ensureIndex({属性:1}), 1表示升序,-1表示降序
 删除索引
 db.集合名.dropIndex({'索引名称':1}}
 查看索引
 db.集合名.getIndexes()
-
-
+添加唯一索引的语法:
+db.集合.ensureIndex({"字段名":1}, {"unique":true})
+利用唯一索引进行数据去重:
+根据唯一索引指定的字段的值,如果相同,则无法插入数据
 
 
 
