@@ -22,19 +22,21 @@ class Job163Spider(scrapy.Spider):
                 meta={"item": item}
             )
 
-        # next_url = response.xpath("//a[text()='>']/@href").extract_first()
-        # if next_url != "javascript:void(0)":
-        #     # 构造完整的url地址
-        #     next_url = "https://hr.163.com/position/list.do" + next_url
-        #     # 构造request请求对象
-        #     yield scrapy.Request(
-        #         next_url,
-        #         # 不指定 默认就是parse方法
-        #         callback=self.parse
-        #     )
+        next_url = response.xpath("//a[text()='>']/@href").extract_first()
+        if next_url != "javascript:void(0)":
+            # 构造完整的url地址
+            next_url = "https://hr.163.com/position/list.do" + next_url
+            # 构造request请求对象
+            import time
+            time.sleep(2)
+            yield scrapy.Request(
+                next_url,
+                # 不指定 默认就是parse方法
+                callback=self.parse
+            )
     def parse_detail(self, response):
         # 接收列表页传递的数据
         item = response.meta["item"]
         item["pub_date"] = response.xpath("//p[@class='post-date']/text()").extract_first()
-        print(item)
+        yield item
 

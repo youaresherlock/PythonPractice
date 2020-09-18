@@ -33,7 +33,7 @@ async def main():
     pages = await asyncio.gather(*tasks)
 
     for movie_name, movie_date, page in zip(movie_names, movie_dates, pages):
-        soup_item = BeautifulSoup(page, 'lxml')
+        soup_item = BeautifulSoup(page, 'html.parser')
         img_tag = soup_item.find('img')
 
         print('{} {} {}'.format(movie_name, movie_date, img_tag['src']))

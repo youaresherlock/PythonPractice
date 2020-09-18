@@ -44,6 +44,3 @@ def isSubsequence(s, t):
 
 
 print(isSubsequence("abc", "alfebeeeeeeeeccccc"))
-
-
-

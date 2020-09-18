@@ -3,27 +3,30 @@ import time
 from pprint import pprint
 from copy import deepcopy
 import scrapy
+from scrapy_redis.spiders import RedisSpider
 
 
-# scrapy.Request
-class BookSpider(scrapy.Spider):
+# 1. 修改父类
+class BookSpider(RedisSpider):
     name = 'book'
     allowed_domains = ['bookschina.com']
-    start_urls = ['http://www.bookschina.com/books/kinder/']
+    # start_urls = ['http://www.bookschina.com/books/kinder/']
+    # 注视掉start_urls  新增Redis_key
+    redis_key = "bookschina"
     base_url = "http://www.bookschina.com"
 
     def parse(self, response):
         # 1. 获取到所有的大分类的列表
         h2_list = response.xpath("//div[@class='categoriesList']//h2")
         # 遍历大分类的列表，获取每一个大分类
-        for h2 in h2_list[:1]:
+        for h2 in h2_list:
             item = {}
             # 获取大分类的名字
             item["b_cate"] = h2.xpath("./a/text()").extract_first()
             # 2. 获取到当前大分类对应的所有小分类的列表
             li_list = h2.xpath("./following-sibling::ul[1]/li")
             # 遍历小分类的列表 获取每一个小分类
-            for li in li_list[:1]:
+            for li in li_list:
                 # 小分类的名字
                 item["s_cate"] = li.xpath("./a/text()").extract_first()
                 # 小分类的url地址

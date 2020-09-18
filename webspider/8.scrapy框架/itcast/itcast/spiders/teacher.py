@@ -2,7 +2,6 @@
 import scrapy
 from itcast.items import ItcastItem
 
-
 # scrapy.Spider 在Scrapy框架中是所有爬虫类的父类
 class TeacherSpider(scrapy.Spider):
     # 爬虫的名字 （启动爬虫的时候需要使用到这个名字）
@@ -16,7 +15,7 @@ class TeacherSpider(scrapy.Spider):
     # response 起始页url地址的对应的响应对象
     def parse(self, response):
         # print(response.status)
-        # 1. 响应对象response可以直接去调用 xpath()  返回 列表 每个元素 selector对象
+        # 1. 响应对象response可以直接去调用 xpath()
         li_list = response.xpath("//div[@class='tea_con']//li")
         # print(li_list)
         # 遍历分组去提取数据

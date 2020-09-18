@@ -9,17 +9,6 @@ import json
 from pymongo import MongoClient
 
 
-class MyPipeline(object):
-
-    def process_item(self, item ,spider):
-        """
-        处理数据
-        :param item:
-        :param spider:
-        :return:
-        """
-        return item
-
 class MongoPipeline(object):
 
     def open_spider(self, spider):

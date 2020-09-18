@@ -21,6 +21,15 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
+# 分布式去重的类
+DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+# 分布式的调度器   用来存储request对象的队列 （实现持久化-- 指纹  request持久化存储）
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+# 是否进行持久化
+SCHEDULER_PERSIST = True
+
+REDIS_URL = "redis://127.0.0.1:6379"
+
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
@@ -64,9 +73,10 @@ ROBOTSTXT_OBEY = False
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-# ITEM_PIPELINES = {
-#    'books.pipelines.BooksPipeline': 300,
-# }
+ITEM_PIPELINES = {
+   # 'books.pipelines.BooksPipeline': 300,
+    'scrapy_redis.pipelines.RedisPipeline': 400,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
