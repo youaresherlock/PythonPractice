@@ -27,6 +27,9 @@ class Foo:
 
         print('__delitem__',key)
 
+    def __setattr__(self, key, value):
+        print('setattr', key, value)
+
     def __getattr__(self, item):
         print('getattr', item)
 
@@ -41,7 +44,8 @@ obj = Foo()
 # obj['k2'] = 'jack'      # 自动触发执行 __setitem__
 #
 # del obj['k1']     # 自动触发执行 __delitem__
-obj.name
+obj.name = 'clarence'
+obj['age'] = 19
 
 
 # class Person(object):
