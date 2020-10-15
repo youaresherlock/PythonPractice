@@ -1,0 +1,29 @@
+redis和memecache的不同在于:
+1. 存储方式
+memecache把数据全部存在内存之中,断电后会挂掉,数据不能超过内存大小
+redis有两种持久化方式RDB和AOF
+存储数据安全--memcache挂掉后，数据没了；redis可以定期保存到磁盘（持久化）
+2. 数据支持类型
+redis在数据支持上要比memcache多的多, 不仅仅支持简单的k/v类型的数据,同时
+还提供list,set,hash等数据结构的存储
+
+RDB和AOF:
+Redis支持将当前数据的快照存成一个数据文件的持久化机制,即RDB快照.
+AOF日志的全称是append only file,它是一个追加写入的日志文件.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
