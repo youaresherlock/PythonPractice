@@ -31,7 +31,7 @@ class LowercaseMeta(type):
     def __new__(mcs, name, bases, attrs):
         lower_attrs = {}
         for k, v in attrs.items():
-            if not k.startsith('__'): # 排除magic method
+            if not k.startswith('__'): # 排除magic method
                 lower_attrs[k.lower()] = v
             else:
                 lower_attrs[k] = v

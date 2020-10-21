@@ -29,7 +29,9 @@ class Student(object):
 
 
 s = Student("clarence", 18)
+print(Student.__dict__)
 print(s.__dict__)  # {'name': 'clarence', 'age': 18}
+print(Student.school, Student.job)
 print(s.school, s.job)  # stanford student
 
 
