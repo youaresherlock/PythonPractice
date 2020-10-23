@@ -1,18 +1,20 @@
 HTTP Status Code是用以表示网页服务器HTTP响应状态的3位数字代码
 
-200 OK
-201 created
-204 not content
+200 OK 服务器成功返回用户请求的数据
+201 created 用户新建或修改数据成功
+202 Accept 表示请求已进入后台排队
+204 not content 
 301 moved permanently永久重定向
-302 found临时重定向
-400 Bad Request
-401 Unauthorized
-403 forbidden  请求资源的访问被服务器拒绝了
-404 not found
-405 method not allowed
-500 internal server error
-502 bad gateway
-503 service unavailable
+302 found临时重定向 
+400 Bad Request 用户发出的请求有错误
+401 Unauthorized  用户没有权限
+403 forbidden  请求资源的访问被服务器拒绝了 访问被禁止了
+404 not found 请求针对的是不存在的记录
+405 method not allowed 
+406 Not Acceptable 请求针对的格式不正确
+500 internal server error 服务器发生错误
+502 bad gateway 
+503 service unavailable 
 
 
 200 OK
