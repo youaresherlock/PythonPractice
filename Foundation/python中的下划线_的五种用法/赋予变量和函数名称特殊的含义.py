@@ -1,4 +1,4 @@
-#!usr/bin/python
+                                                                                                         #!usr/bin/python
 # -*- coding:utf8 -*-
 """
 下划线可能最常用于“命名”。PEP8是Python的约定准则，它介绍了以下4种命名情况：
