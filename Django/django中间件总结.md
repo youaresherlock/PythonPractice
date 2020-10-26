@@ -153,7 +153,7 @@ class TestMiddleware1(MiddlewareMixin):
 1. 先按照正序执行每个注册中间件的process_request方法,process_request方法返回的
 值是None,就依次执行,如果返回的值是HttpResponse对象，不再执行后面的process_request
 方法,而是执行当前对应中间件的process_response方法.
-如1-6个中间件,第3个中间件返回HttpResponse对象，接下来执行3、2、1的process_request方法
+如1-6个中间件,第3个中间件返回HttpResponse对象，接下来执行3、2、1的process_response方法
 
 2. 如果process_request都返回None,则都执行完后，匹配路由，找到要执行的视图函数，先不
 执行视图函数,先执行中间件中的process_view方法,process_view方法返回None,继续按顺序执行,
