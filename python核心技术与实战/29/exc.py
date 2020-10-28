@@ -1,5 +1,6 @@
 #!usr/bin/python
 # -*- coding:utf8 -*-
+import sys
 
 
 class Foo:
@@ -15,6 +16,7 @@ class Foo:
     仍然会被抛出
     """
     def __exit__(self, exc_type, exc_value, exc_tb):
+        print(sys.exc_info())
         print('__exit__ called')
         if exc_type:
             print(f'exc_type: {exc_type}')
