@@ -33,6 +33,9 @@ class Foo:
     def __getattr__(self, item):
         print('getattr', item)
 
+    def __delattr__(self, item):
+        print('delattr', item)
+
     def __getattribute__(self, item):
         print("getattribute", item)
 
@@ -45,6 +48,7 @@ obj = Foo()
 #
 # del obj['k1']     # 自动触发执行 __delitem__
 obj.name = 'clarence'
+del obj.name
 obj['age'] = 19
 
 
