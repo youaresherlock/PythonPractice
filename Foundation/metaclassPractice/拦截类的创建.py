@@ -27,6 +27,9 @@ class UpperAttr(type):
                 new_attrs[key.upper()] = value
         return super().__new__(mcs, name, bases, new_attrs)
 
+    # def __call__(cls, *args, **kwargs):
+    #     print(args, kwargs)
+
 
 class People(object, metaclass=UpperAttr):
 
