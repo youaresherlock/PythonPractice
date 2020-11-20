@@ -13,14 +13,9 @@ def compute_middle_number(message):
     max_value = max(message_dict.values())
     many_numbers = [key for key, value in message_dict.items() if value == max_value]
     length = len(many_numbers)
-    if length % 2 == 1:
-        pivot = (length - 1) // 2
-        result = many_numbers[pivot]
-    else:
-        pivot = length // 2
-        result = (many_numbers[pivot - 1] + many_numbers[pivot]) // 2
 
-    return result
+    return many_numbers[length // 2] if length % 2 == 1 else\
+        (many_numbers[(length // 2) - 1] + many_numbers[length // 2]) / 2
 
 
 if __name__ == '__main__':
