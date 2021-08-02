@@ -1,6 +1,8 @@
-pipԴ:
+pip源:
 -i https://pypi.douban.com/simple/
 
 -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 -i http://pypi.mirrors.ustc.edu.cn/simple/
+
+-i http://mirrors.tools.huawei.com/pypi/simple/

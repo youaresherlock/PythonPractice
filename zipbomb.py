@@ -1,1 +1,0 @@
-# !/usr/bin/python# -*- coding:utf-8 -*-import zipfilewith zipfile.ZipFile(r"C:\Users\x30009363\Desktop\42.zip") as z:    print(f'total files size={sum(e.file_size for e in z.infolist())}')
